@@ -1370,3 +1370,9 @@ chimaera   19411  1.0  0.4  19256  4828 pts/2    Ss+  18:17   0:00 bash -rcfile 
 chimaera   19417  0.0  0.3  20132  3348 pts/0    R+   18:17   0:00 ps aux
 chimaera@Laerna:~$ ps auxsudo kill 15 19180 19180409
 chimaera@Laerna:~$ 
+chimaera@Laerna:~$ for i in {2015..2021}; do  mkdir $i ; for j in {1..12}; do mkdir $i/$j ; done; done;
+chimaera@Laerna:~$ ls
+2  2015  2016  2017  2018  2019  2020  2021  Desktop  Documents  Downloads  Errors.txt  i  Music  Pictures  Public  snap  Templates  TestFile1  Videos
+chimaera@Laerna:~$ ls 2018
+1  10  11  12  2  3  4  5  6  7  8  9
+chimaera@Laerna:~$
