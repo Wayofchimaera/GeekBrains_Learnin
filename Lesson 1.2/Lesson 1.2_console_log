@@ -1,0 +1,1372 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2021.05.22 17:47:03 =~=~=~=~=~=~=~=~=~=~=~=
+login as: chimaera
+chimaera@192.168.1.52's password: 
+Welcome to Ubuntu 20.04.2 LTS (GNU/Linux 5.8.0-53-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+116 updates can be installed immediately.
+0 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Your Hardware Enablement Stack (HWE) is supported until April 2025.
+Last login: Tue May 18 21:52:24 2021 from 192.168.1.50
+chimaera@Laerna:~$ chimaera@Laerna:~$ ls /etc
+acpi                    brltty.conf                    deluser.conf         ghostscript  init             libreoffice     modules-load.d       pcmcia                   rcS.d              ssl               update-motd.d
+adduser.conf            ca-certificates                depmod.d             glvnd        init.d           locale.alias    mtab                 perl                     resolv.conf        subgid            update-notifier
+alsa                    ca-certificates.conf           dhcp                 gnome        initramfs-tools  locale.gen      mtools.conf          pki                      rmt                subgid-           UPower
+alternatives            ca-certificates.conf.dpkg-old  dictionaries-common  groff        inputrc          localtime       mysql                pm                       rpc                subuid            usb_modeswitch.conf
+anacrontab              calendar                       dpkg                 group        insserv.conf.d   logcheck        nanorc               pnm2ppa.conf             rsyslog.conf       subuid-           usb_modeswitch.d
+apg.conf                chatscripts                    e2scrub.conf         group-       iproute2         login.defs      netplan              polkit-1                 rsyslog.d          sudoers           vim
+apm                     console-setup                  emacs                grub.d       issue            logrotate.conf  network              popularity-contest.conf  rygel.conf         sudoers.d         vtrgb
+apparmor                cracklib                       environment          gshadow      issue.net        logrotate.d     networkd-dispatcher  ppp                      sane.d             sysctl.conf       vulkan
+apparmor.d              cron.d                         environment.d        gshadow-     kernel           lsb-release     NetworkManager       profile                  security           sysctl.d          wgetrc
+apport                  cron.daily                     ethertypes           gss          kernel-img.conf  ltrace.conf     networks             profile.d                selinux            systemd           wpa_supplicant
+appstream.conf          cron.hourly                    firefox              gtk-2.0      kerneloops.conf  machine-id      newt                 protocols                sensors3.conf      terminfo          X11
+apt                     cron.monthly                   fonts                gtk-3.0      ldap             magic           nsswitch.conf        pulse                    sensors.d          thermald          xattr.conf
+avahi                   crontab                        fprintd.conf         hdparm.conf  ld.so.cache      magic.mime      openvpn              python3                  services           thunderbird       xdg
+bash.bashrc             cron.weekly                    fstab                host.conf    ld.so.conf       mailcap         opt                  python3.8                sgml               timezone          xml
+bash_completion         cups                           fuse.conf            hostid       ld.so.conf.d     mailcap.order   os-release           rc0.d                    shadow             tmpfiles.d        zsh_command_not_found
+bash_completion.d       cupshelpers                    fwupd                hostname     legal            manpath.config  PackageKit           rc1.d                    shadow-            ubuntu-advantage
+bindresvport.blacklist  dbus-1                         gai.conf             hosts        libao.conf       mc              pam.conf             rc2.d                    shells             ucf.conf
+binfmt.d                dconf                          gamemode.ini         hosts.allow  libaudit.conf    mime.types      pam.d                rc3.d                    skel               udev
+bluetooth               debconf.conf                   gdb                  hosts.deny   libblockdev      mke2fs.conf     papersize            rc4.d                    snmp               udisks2
+brlapi.key              debian_version                 gdm3                 hp           libnl-3          modprobe.d      passwd               rc5.d                    speech-dispatcher  ufw
+brltty                  default                        geoclue              ifplugd      libpaper.d       modules         passwd-              rc6.d                    ssh                update-manager
+chimaera@Laerna:~$ ls /proc
+1     1198  1264  1376   15113  1580  1675  1711  1777   17960  1818   18518  1948  24   266  505  543  623  7665  84   92          cgroups    dynamic_debug  kallsyms     locks         partitions   swaps          version_signature
+10    12    1275  14     152    1581  1679  1721  1781   1797   182    18523  1973  249  267  506  544  652  77    85   94          cmdline    execdomains    kcore        mdstat        pressure     sys            vmallocinfo
+105   1214  1282  1452   153    1589  1680  1729  1782   1799   183    18525  2     25   293  509  545  656  78    87   96          consoles   fb             keys         meminfo       sched_debug  sysrq-trigger  vmstat
+108   1215  1292  1464   1553   16    1683  1736  1785   18     18446  18605  20    257  3    511  548  660  79    879  973         cpuinfo    filesystems    key-users    misc          schedstat    sysvipc        zoneinfo
+109   1220  1297  1468   1554   1613  1685  1755  1789   1802   1845   18606  21    26   357  513  550  72   8     88   acpi        crypto     fs             kmsg         modules       scsi         thread-self
+11    1222  1315  1470   1565   1618  1695  1761  1793   1805   18486  18618  22    260  358  514  557  73   80    89   asound      devices    interrupts     kpagecgroup  mounts        self         timer_list
+114   1226  1333  1482   1566   1633  17    1773  1794   1809   1849   18628  222   262  365  535  6    74   82    9    bootconfig  diskstats  iomem          kpagecount   mtrr          slabinfo     tty
+115   1253  1365  15     1572   1640  1700  1774  17952  18103  18508  1898   23    264  4    537  612  75   833   90   buddyinfo   dma        ioports        kpageflags   net           softirqs     uptime
+1191  1262  1366  15111  1573   1653  1705  1776  1796   1813   18517  19     2381  265  466  542  617  76   838   91   bus         driver     irq            loadavg      pagetypeinfo  stat         version
+chimaera@Laerna:~$ ls /prochome
+chimaera
+chimaera@Laerna:~$ cat nbrladduser.conf
+cat: adduser.conf: No such file or directory
+chimaera@Laerna:~$ cat adduser.confeadduser.conftadduser.confcadduser.conf/adduser.conf
+cat: etc/adduser.conf: No such file or directory
+chimaera@Laerna:~$ cat etc/adduser.conf/etc/adduser.conf
+# /etc/adduser.conf: `adduser' configuration.
+# See adduser(8) and adduser.conf(5) for full documentation.
+
+# The DSHELL variable specifies the default login shell on your
+# system.
+DSHELL=/bin/bash
+
+# The DHOME variable specifies the directory containing users' home
+# directories.
+DHOME=/home
+
+# If GROUPHOMES is "yes", then the home directories will be created as
+# /home/groupname/user.
+GROUPHOMES=no
+
+# If LETTERHOMES is "yes", then the created home directories will have
+# an extra directory - the first letter of the user name. For example:
+# /home/u/user.
+LETTERHOMES=no
+
+# The SKEL variable specifies the directory containing "skeletal" user
+# files; in other words, files such as a sample .profile that will be
+# copied to the new user's home directory when it is created.
+SKEL=/etc/skel
+
+# FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs
+# for dynamically allocated administrative and system accounts/groups.
+# Please note that system software, such as the users allocated by the base-passwd
+# package, may assume that UIDs less than 100 are unallocated.
+FIRST_SYSTEM_UID=100
+LAST_SYSTEM_UID=999
+
+FIRST_SYSTEM_GID=100
+LAST_SYSTEM_GID=999
+
+# FIRST_[GU]ID to LAST_[GU]ID inclusive is the range of UIDs of dynamically
+# allocated user accounts/groups.
+FIRST_UID=1000
+LAST_UID=59999
+
+FIRST_GID=1000
+LAST_GID=59999
+
+# The USERGROUPS variable can be either "yes" or "no".  If "yes" each
+# created user will be given their own group to use as a default.  If
+# "no", each created user will be placed in the group whose gid is
+# USERS_GID (see below).
+USERGROUPS=yes
+
+# If USERGROUPS is "no", then USERS_GID should be the GID of the group
+# `users' (or the equivalent group) on your system.
+USERS_GID=100
+
+# If DIR_MODE is set, directories will be created with the specified
+# mode. Otherwise the default mode 0755 will be used.
+DIR_MODE=0755
+
+# If SETGID_HOME is "yes" home directories for users with their own
+# group the setgid bit will be set. This was the default for
+# versions << 3.13 of adduser. Because it has some bad side effects we
+# no longer do this per default. If you want it nevertheless you can
+# still set it here.
+SETGID_HOME=no
+
+# If QUOTAUSER is set, a default quota will be set from that user with
+# `edquota -p QUOTAUSER newuser'
+QUOTAUSER=""
+
+# If SKEL_IGNORE_REGEX is set, adduser will ignore files matching this
+# regular expression when creating a new home directory
+SKEL_IGNORE_REGEX="dpkg-(old|new|dist|save)"
+
+# Set this if you want the --add_extra_groups option to adduser to add
+# new users to other groups.
+# This is the list of groups that new non-system users will be added to
+# Default:
+#EXTRA_GROUPS="dialout cdrom floppy audio video plugdev users"
+
+# If ADD_EXTRA_GROUPS is set to something non-zero, the EXTRA_GROUPS
+# option above will be default behavior for adding new, non-system users
+#ADD_EXTRA_GROUPS=1
+
+
+# check user and group names also against this regular expression.
+#NAME_REGEX="^[a-z][-a-z0-9_]*\$"
+
+# use extrausers by default
+#USE_EXTRAUSERS=1
+chimaera@Laerna:~$ cat /etc/adduser.confetc/adduser.confadduser.confls /home
+chimaera
+chimaera@Laerna:~$ ls /homecat /etc/adduser.confetc/adduser.confadduser.confls /homeprocetc
+acpi                    brltty.conf                    deluser.conf         ghostscript  init             libreoffice     modules-load.d       pcmcia                   rcS.d              ssl               update-motd.d
+adduser.conf            ca-certificates                depmod.d             glvnd        init.d           locale.alias    mtab                 perl                     resolv.conf        subgid            update-notifier
+alsa                    ca-certificates.conf           dhcp                 gnome        initramfs-tools  locale.gen      mtools.conf          pki                      rmt                subgid-           UPower
+alternatives            ca-certificates.conf.dpkg-old  dictionaries-common  groff        inputrc          localtime       mysql                pm                       rpc                subuid            usb_modeswitch.conf
+anacrontab              calendar                       dpkg                 group        insserv.conf.d   logcheck        nanorc               pnm2ppa.conf             rsyslog.conf       subuid-           usb_modeswitch.d
+apg.conf                chatscripts                    e2scrub.conf         group-       iproute2         login.defs      netplan              polkit-1                 rsyslog.d          sudoers           vim
+apm                     console-setup                  emacs                grub.d       issue            logrotate.conf  network              popularity-contest.conf  rygel.conf         sudoers.d         vtrgb
+apparmor                cracklib                       environment          gshadow      issue.net        logrotate.d     networkd-dispatcher  ppp                      sane.d             sysctl.conf       vulkan
+apparmor.d              cron.d                         environment.d        gshadow-     kernel           lsb-release     NetworkManager       profile                  security           sysctl.d          wgetrc
+apport                  cron.daily                     ethertypes           gss          kernel-img.conf  ltrace.conf     networks             profile.d                selinux            systemd           wpa_supplicant
+appstream.conf          cron.hourly                    firefox              gtk-2.0      kerneloops.conf  machine-id      newt                 protocols                sensors3.conf      terminfo          X11
+apt                     cron.monthly                   fonts                gtk-3.0      ldap             magic           nsswitch.conf        pulse                    sensors.d          thermald          xattr.conf
+avahi                   crontab                        fprintd.conf         hdparm.conf  ld.so.cache      magic.mime      openvpn              python3                  services           thunderbird       xdg
+bash.bashrc             cron.weekly                    fstab                host.conf    ld.so.conf       mailcap         opt                  python3.8                sgml               timezone          xml
+bash_completion         cups                           fuse.conf            hostid       ld.so.conf.d     mailcap.order   os-release           rc0.d                    shadow             tmpfiles.d        zsh_command_not_found
+bash_completion.d       cupshelpers                    fwupd                hostname     legal            manpath.config  PackageKit           rc1.d                    shadow-            ubuntu-advantage
+bindresvport.blacklist  dbus-1                         gai.conf             hosts        libao.conf       mc              pam.conf             rc2.d                    shells             ucf.conf
+binfmt.d                dconf                          gamemode.ini         hosts.allow  libaudit.conf    mime.types      pam.d                rc3.d                    skel               udev
+bluetooth               debconf.conf                   gdb                  hosts.deny   libblockdev      mke2fs.conf     papersize            rc4.d                    snmp               udisks2
+brlapi.key              debian_version                 gdm3                 hp           libnl-3          modprobe.d      passwd               rc5.d                    speech-dispatcher  ufw
+brltty                  default                        geoclue              ifplugd      libpaper.d       modules         passwd-              rc6.d                    ssh                update-manager
+chimaera@Laerna:~$ ls /etchomecat /etc/adduser.confpapg.conf
+#APG_PARM sets the defaults if apg is executed without any command arguments
+#
+#
+#Examples:
+#
+#Pronounceable passwords with special characters:
+#APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
+#
+#Pronounceable passwords without special characters:
+#APG_PARM="-c /dev/urandom  -m 8 -x 14  -M NCL  -t"
+#
+#Random passwords:
+#APG_PARM="-c /dev/urandom  -m 20 -x 20  -a 1 -M SNCL"
+
+APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
+chimaera@Laerna:~$ cat /etc/apg.confdebconf/.conf
+# This is the main config file for debconf. It tells debconf where to
+# store data. The format of this file is a set of stanzas. Each stanza
+# except the first sets up a database for debconf to use. For details, see
+# debconf.conf(5) (in the debconf-doc package).
+#
+# So first things first. This first stanza gives the names of two databases.
+
+# Debconf will use this database to store the data you enter into it,
+# and some other dynamic data.
+Config: configdb
+# Debconf will use this database to store static template data.
+Templates: templatedb
+
+# World-readable, and accepts everything but passwords.
+Name: config
+Driver: File
+Mode: 644
+Reject-Type: password
+Filename: /var/cache/debconf/config.dat
+
+# Not world readable (the default), and accepts only passwords.
+Name: passwords
+Driver: File
+Mode: 600
+Backup: false
+Required: false
+Accept-Type: password
+Filename: /var/cache/debconf/passwords.dat
+
+# Set up the configdb database. By default, it consists of a stack of two
+# databases, one to hold passwords and one for everything else.
+Name: configdb
+Driver: Stack
+Stack: config, passwords
+
+# Set up the templatedb database, which is a single flat text file
+# by default.
+Name: templatedb
+Driver: File
+Mode: 644
+Filename: /var/cache/debconf/templates.dat
+
+# Well that was pretty straightforward, and it will be enough for most
+# people's needs, but debconf's database drivers can be used to do much
+# more interesting things. For example, suppose you want to use config 
+# data from another host, which is mounted over nfs or perhaps the database
+# is accessed via LDAP. You don't want to write to the remote debconf database,
+# just read from it, so you still need a local database for local changes.
+#
+# A remote NFS mounted database, read-only. It is optional; if debconf
+# fails to use it it will not abort.
+#Name: remotedb
+#Driver: DirTree
+#Directory: /mnt/otherhost/var/cache/debconf/config
+#Readonly: true
+#Required: false
+#
+# A remote LDAP database. It is also read-only. The password is really
+# only necessary if the database is not accessible anonymously.
+# Option KeyByKey instructs the backend to retrieve keys from the LDAP
+# server individually (when they are requested), instead of loading all
+# keys at startup. The default is 0, and should only be enabled if you
+# want to track accesses to individual keys on the LDAP server side.
+#Name: remotedb
+#Driver: LDAP
+#Server: remotehost
+#BaseDN: cn=debconf,dc=domain,dc=com
+#BindDN: uid=admin,dc=domain,dc=com
+#BindPasswd: secret
+#KeyByKey: 0
+#
+# A stack consisting of two databases. Values will be read from
+# the first database in the stack to contain a value. In this example,
+# writes always go to the first database.
+#Name: fulldb
+#Driver: Stack
+#Stack: configdb, remotedb
+#
+# In this example, we'd use Config: fulldb at the top of the file
+# to make it use the combination of the databases.
+#
+# Even more complex and interesting setups are possible, see the 
+# debconf.conf(5) page for details.
+chimaera@Laerna:~$ cat >file1 file1
+Hello this si  is file1
+^C
+chimaera@Laerna:~$ cat > file12
+And this is file2   2 
+^C
+chimaera@Laerna:~$ ls
+2  cat  Desktop  Documents  Downloads  echo  file1  file2  Music  NewFile  Pictures  Public  snap  Templates  Videos
+chimaera@Laerna:~$ cat file1 file122 > FileJoined
+chimaera@Laerna:~$ ls
+2  cat  Desktop  Documents  Downloads  echo  file1  file2  FileJoined  Music  NewFile  Pictures  Public  snap  Templates  Videos
+chimaera@Laerna:~$ cat fileFileJoined 
+Hello this is file1
+And this is file2 
+chimaera@Laerna:~$ mv FileJoined FileRenamed
+chimaera@Laerna:~$ ls
+2  cat  Desktop  Documents  Downloads  echo  file1  file2  FileRenamed  Music  NewFile  Pictures  Public  snap  Templates  Videos
+chimaera@Laerna:~$ touch file 23
+chimaera@Laerna:~$ touch file34
+chimaera@Laerna:~$ mkdir hDirectory
+chimaera@Laerna:~$ cp file23 /DiDirectory/file23
+chimaera@Laerna:~$ cp file3 Directory/file3 Directory/file32 Directory/file32
+chimaera@Laerna:~$ cp file2 Directory/file2 Directory/file21 Directory/file21rm -frf file`1Directory
+chimaera@Laerna:~$ ls
+2  cat  Desktop  Documents  Downloads  echo  file1  file2  file3  file4  FileRenamed  Music  NewFile  Pictures  Public  snap  Templates  Videos
+chimaera@Laerna:~$ deiellsrm -rf Directoryfile1
+chimaera@Laerna:~$ rm -rf file12
+chimaera@Laerna:~$ rm -rf file23
+chimaera@Laerna:~$ rm -rf file34
+chimaera@Laerna:~$ rm -rf file4FileRenamed 
+chimaera@Laerna:~$ rm -rf FileRenamed echo 
+chimaera@Laerna:~$ rm -rf echo NewFile 
+chimaera@Laerna:~$ ls -a
+.   2              .bash_logout  .cache  .config  Documents  .gnupg  .mozilla  Pictures  Public  .ssh                       Templates                  .vboxclient-display-svga-x11.pid  .vboxclient-seamless.pid  .Xauthority
+..  .bash_history  .bashrc       cat     Desktop  Downloads  .local  Music     .profile  snap    .sudo_as_admin_successful  .vboxclient-clipboard.pid  .vboxclient-draganddrop.pid       Videos
+chimaera@Laerna:~$ ls -a | grep \. |ws -l
+ws: command not found
+chimaera@Laerna:~$ ls -a | grep \. |ws -l  -lc -l
+29
+chimaera@Laerna:~$ ls -a | grep \. | wc -l""
+18
+chimaera@Laerna:~$  cat *
+
+2
+cat
+Desktop
+Documents
+Downloads
+echo
+file1
+Music
+NewFile
+Pictures
+Public
+snap
+Templates
+Videos
+cat: Desktop: Is a directory
+cat: Documents: Is a directory
+cat: Downloads: Is a directory
+cat: Music: Is a directory
+cat: Pictures: Is a directory
+cat: Public: Is a directory
+cat: snap: Is a directory
+cat: Templates: Is a directory
+cat: Videos: Is a directory
+chimaera@Laerna:~$ cat *ls -a | grep "\." | wc -lcat
+.
+..
+2
+.bash_history
+.bash_logout
+.bashrc
+.cache
+cat
+.config
+Desktop
+Documents
+Downloads
+.gnupg
+.local
+.mozilla
+Music
+Pictures
+.profile
+Public
+snap
+.ssh
+.sudo_as_admin_successful
+Templates
+.vboxclient-clipboard.pid
+.vboxclient-display-svga-x11.pid
+.vboxclient-draganddrop.pid
+.vboxclient-seamless.pid
+Videos
+.Xauthority
+chimaera@Laerna:~$ ls -a | cat *U
+
+2
+cat
+Desktop
+Documents
+Downloads
+echo
+file1
+Music
+NewFile
+Pictures
+Public
+snap
+Templates
+Videos
+cat: Desktop: Is a directory
+cat: Documents: Is a directory
+cat: Downloads: Is a directory
+cat: Music: Is a directory
+cat: Pictures: Is a directory
+cat: Public: Is a directory
+cat: snap: Is a directory
+cat: Templates: Is a directory
+cat: Videos: Is a directory
+chimaera@Laerna:~$ ls -a | cat *>
+chimaera@Laerna:~$ ls -a > cat cat| cat cat
+2  cat  Desktop  Documents  Downloads  Music  Pictures  Public  snap  Templates  Videos
+chimaera@Laerna:~$ rm -rf cat
+chimaera@Laerna:~$ ls
+2  Desktop  Documents  Downloads  Music  Pictures  Public  snap  Templates  Videos
+chimaera@Laerna:~$ lsrm -rf catlstouch TestFile1`11
+chimaera@Laerna:~$ echo "Testing HELLPPO" > TestFile1 
+chimaera@Laerna:~$ cat TestFile1 
+Testing HELLO
+chimaera@Laerna:~$ cat TestFile1 echo "Testing HELLO" >touch TestFile1lsrm -rf catls -a > cat| cat *
+
+cat: Desktop: Is a directory
+cat: Documents: Is a directory
+cat: Downloads: Is a directory
+cat: Music: Is a directory
+cat: Pictures: Is a directory
+cat: Public: Is a directory
+cat: snap: Is a directory
+cat: Templates: Is a directory
+Testing HELLO
+cat: Videos: Is a directory
+chimaera@Laerna:~$ ls -a | cat * > 2>Errors.txt
+
+Testing HELLO
+chimaera@Laerna:~$ ls -a | cat * 2>Errors.txtcat TestFile1 echo "Testing HELLO" >catls -a | cat *cat TestFile1 echo "Testing HELLO" >touch TestFile1ls
+2  Desktop  Documents  Downloads  Errors.txt  Music  Pictures  Public  snap  Templates  TestFile1  Videos
+chimaera@Laerna:~$ cat eErrors.txt 
+cat: Desktop: Is a directory
+cat: Documents: Is a directory
+cat: Downloads: Is a directory
+cat: Music: Is a directory
+cat: Pictures: Is a directory
+cat: Public: Is a directory
+cat: snap: Is a directory
+cat: Templates: Is a directory
+cat: Videos: Is a directory
+chimaera@Laerna:~$ cat Errors.txt | ws c -l
+9
+chimaera@Laerna:~$  ps aux
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.6 168892  6848 ?        Ss   18   0:12 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    18   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   18   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   18   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   18   0:00 [kworker/0:0H-kblockd]
+root           8  0.0  0.0      0     0 ?        I<   18   0:00 [mm_percpu_wq]
+root           9  0.0  0.0      0     0 ?        S    18   0:05 [ksoftirqd/0]
+root          10  0.0  0.0      0     0 ?        I    18   0:28 [rcu_sched]
+root          11  0.0  0.0      0     0 ?        S    18   0:04 [migration/0]
+root          12  0.0  0.0      0     0 ?        S    18   0:00 [idle_inject/0]
+root          14  0.0  0.0      0     0 ?        S    18   0:00 [cpuhp/0]
+root          15  0.0  0.0      0     0 ?        S    18   0:00 [kdevtmpfs]
+root          16  0.0  0.0      0     0 ?        I<   18   0:00 [netns]
+root          17  0.0  0.0      0     0 ?        S    18   0:00 [rcu_tasks_kthre]
+root          18  0.0  0.0      0     0 ?        S    18   0:00 [rcu_tasks_rude_]
+root          19  0.0  0.0      0     0 ?        S    18   0:00 [rcu_tasks_trace]
+root          20  0.0  0.0      0     0 ?        S    18   0:00 [kauditd]
+root          21  0.0  0.0      0     0 ?        S    18   0:00 [khungtaskd]
+root          22  0.0  0.0      0     0 ?        S    18   0:00 [oom_reaper]
+root          23  0.0  0.0      0     0 ?        I<   18   0:00 [writeback]
+root          24  0.0  0.0      0     0 ?        S    18   0:00 [kcompactd0]
+root          25  0.0  0.0      0     0 ?        SN   18   0:00 [ksmd]
+root          26  0.0  0.0      0     0 ?        SN   18   0:01 [khugepaged]
+root          72  0.0  0.0      0     0 ?        I<   18   0:00 [kintegrityd]
+root          73  0.0  0.0      0     0 ?        I<   18   0:00 [kblockd]
+root          74  0.0  0.0      0     0 ?        I<   18   0:00 [blkcg_punt_bio]
+root          75  0.0  0.0      0     0 ?        I<   18   0:00 [tpm_dev_wq]
+root          76  0.0  0.0      0     0 ?        I<   18   0:00 [ata_sff]
+root          77  0.0  0.0      0     0 ?        I<   18   0:00 [md]
+root          78  0.0  0.0      0     0 ?        I<   18   0:00 [edac-poller]
+root          79  0.0  0.0      0     0 ?        I<   18   0:00 [devfreq_wq]
+root          80  0.0  0.0      0     0 ?        S    18   0:00 [watchdogd]
+root          82  0.0  0.0      0     0 ?        I<   18   0:00 [pm_wq]
+root          84  0.0  0.0      0     0 ?        S    18   0:19 [kswapd0]
+root          85  0.0  0.0      0     0 ?        S    18   0:00 [ecryptfs-kthrea]
+root          87  0.0  0.0      0     0 ?        I<   18   0:00 [kthrotld]
+root          88  0.0  0.0      0     0 ?        I<   18   0:00 [acpi_thermal_pm]
+root          89  0.0  0.0      0     0 ?        S    18   0:00 [scsi_eh_0]
+root          90  0.0  0.0      0     0 ?        I<   18   0:00 [scsi_tmf_0]
+root          91  0.0  0.0      0     0 ?        S    18   0:00 [scsi_eh_1]
+root          92  0.0  0.0      0     0 ?        I<   18   0:00 [scsi_tmf_1]
+root          94  0.0  0.0      0     0 ?        I<   18   0:00 [vfio-irqfd-clea]
+root          96  0.0  0.0      0     0 ?        I<   18   0:00 [ipv6_addrconf]
+root         105  0.0  0.0      0     0 ?        I<   18   0:00 [kstrp]
+root         108  0.0  0.0      0     0 ?        I<   18   0:00 [zswap-shrink]
+root         109  0.0  0.0      0     0 ?        I<   18   0:00 [kworker/u3:0]
+root         114  0.0  0.0      0     0 ?        I<   18   0:00 [charger_manager]
+root         115  0.0  0.0      0     0 ?        I<   18   0:09 [kworker/0:1H-kblockd]
+root         152  0.0  0.0      0     0 ?        S    18   0:00 [scsi_eh_2]
+root         153  0.0  0.0      0     0 ?        I<   18   0:00 [scsi_tmf_2]
+root         182  0.0  0.0      0     0 ?        S    18   0:01 [jbd2/sda1-8]
+root         183  0.0  0.0      0     0 ?        I<   18   0:00 [ext4-rsv-conver]
+root         222  0.0  1.2  68480 12444 ?        S<s  18   0:03 /lib/systemd/systemd-journald
+root         249  0.0  0.1  23696  1500 ?        Ss   18   0:01 /lib/systemd/systemd-udevd
+root         257  0.0  0.0      0     0 ?        S<   18   0:00 [loop0]
+root         260  0.0  0.0      0     0 ?        S<   18   0:00 [loop2]
+root         262  0.0  0.0      0     0 ?        S<   18   0:00 [loop3]
+root         264  0.0  0.0      0     0 ?        S<   18   0:00 [loop4]
+root         265  0.0  0.0      0     0 ?        S<   18   0:00 [loop5]
+root         266  0.0  0.0      0     0 ?        S<   18   0:00 [loop6]
+root         267  0.0  0.0      0     0 ?        S<   18   0:00 [loop7]
+systemd+     293  0.0  0.3  24224  3524 ?        Ss   18   0:08 /lib/systemd/systemd-resolved
+root         357  0.0  0.0      0     0 ?        S    18   0:00 [irq/18-vmwgfx]
+root         358  0.0  0.0      0     0 ?        I<   18   0:00 [ttm_swap]
+root         365  0.0  0.0      0     0 ?        I<   18   0:00 [cryptd]
+systemd+     466  0.0  0.1  90456  1992 ?        Ssl  18   0:01 /lib/systemd/systemd-timesyncd
+root         505  0.0  0.3 246884  3920 ?        Ssl  18   0:08 /usr/lib/accountsservice/accounts-daemon
+root         506  0.0  0.0   2548   248 ?        Ss   18   0:00 /usr/sbin/acpid
+avahi        509  0.0  0.1   8532  1856 ?        Ss   18   0:04 avahi-daemon: running [Laerna.local]
+root         511  0.0  0.1  18052  1828 ?        Ss   18   0:00 /usr/sbin/cron -f
+message+     513  0.0  0.4   9940  4340 ?        Ss   18   1:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         514  0.0  0.6 344316  6832 ?        Ssl  18   4:31 /usr/sbin/NetworkManager --no-daemon
+root         535  0.0  0.3  47956  3032 ?        Ss   18   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         537  0.0  0.6 249704  6336 ?        Ssl  18   0:06 /usr/lib/policykit-1/polkitd --no-debug
+syslog       542  0.0  0.2 224356  2080 ?        Ssl  18   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         543  0.0  1.5 669820 15088 ?        Ssl  18   1:07 /usr/lib/snapd/snapd
+root         544  0.0  0.2 244240  2128 ?        Ssl  18   0:00 /usr/libexec/switcheroo-control
+root         545  0.0  0.3  17140  3288 ?        Ss   18   0:01 /lib/systemd/systemd-logind
+root         548  0.0  0.3 392808  3408 ?        Ssl  18   0:00 /usr/lib/udisks2/udisksd
+root         550  0.0  0.0  13688   476 ?        Ss   18   0:02 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        557  0.0  0.0   8352    40 ?        S    18   0:00 avahi-daemon: chroot helper
+root         612  0.0  0.2 126480  2988 ?        Ssl  18   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         617  0.0  0.3 313748  3892 ?        Ssl  18   0:00 /usr/sbin/ModemManager --filter-policy=strict
+root         623  0.0  0.2  12184  2644 ?        Ss   18   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+whoopsie     652  0.0  0.3 400588  3836 ?        Ssl  18   0:01 /usr/bin/whoopsie -f
+kernoops     656  0.0  0.1  11264  1480 ?        Ss   18   0:19 /usr/sbin/kerneloops --test
+kernoops     660  0.0  0.0  11264    72 ?        Ss   18   0:19 /usr/sbin/kerneloops
+root         833  0.0  0.4 248240  4468 ?        Ssl  18   0:00 /usr/sbin/gdm3
+root         838  0.0  0.1 304056  1172 ?        Sl   18   1:08 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+rtkit        879  0.0  0.1 152940  1540 ?        SNsl 18   0:05 /usr/libexec/rtkit-daemon
+root         973  0.0  0.1 260748  1856 ?        Ssl  18   0:00 /usr/lib/upower/upowerd
+root        1191  0.0  0.3  13984  3196 ?        Ss   18   0:00 sshd: chimaera [priv]
+colord      1198  0.0  0.4 254872  4372 ?        Ssl  18   0:00 /usr/libexec/colord
+chimaera    1214  0.0  0.5  19300  5280 ?        Ss   18   0:02 /lib/systemd/systemd --user
+chimaera    1215  0.0  0.0 103576    56 ?        S    18   0:00 (sd-pam)
+chimaera    1220  0.0  0.5 1490972 5576 ?        Ssl  18   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+chimaera    1222  0.0  0.7 519920  7952 ?        SNsl 18   0:01 /usr/libexec/tracker-miner-fs
+chimaera    1226  0.0  0.5   9624  5124 ?        Ss   18   0:02 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+chimaera    1253  0.0  0.3 248344  3068 ?        Ssl  18   0:00 /usr/libexec/gvfsd
+chimaera    1262  0.0  0.2 378344  2748 ?        Sl   18   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+chimaera    1264  0.0  0.4 322564  4388 ?        Ssl  18   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+chimaera    1275  0.0  0.3 246612  3056 ?        Ssl  18   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+chimaera    1282  0.0  0.3 244336  3216 ?        Ssl  18   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+chimaera    1292  0.0  0.3 244508  3380 ?        Ssl  18   0:00 /usr/libexec/gvfs-goa-volume-monitor
+chimaera    1297  0.0  0.4 631664  4184 ?        Sl   18   0:00 /usr/libexec/goa-daemon
+chimaera    1315  0.0  0.3 397120  3076 ?        Sl   18   0:00 /usr/libexec/goa-identity-service
+chimaera    1333  0.0  0.2 325356  2792 ?        Ssl  18   0:18 /usr/libexec/gvfs-afc-volume-monitor
+chimaera    1365  0.0  0.1  14116  1148 ?        S    18   0:03 sshd: chimaera@notty
+chimaera    1366  0.0  0.1   5892  1372 ?        Ss   18   0:00 /usr/lib/openssh/sftp-server
+chimaera    1376  0.0  0.3 170908  3128 ?        Ssl  18   0:00 /usr/libexec/gvfsd-metadata
+root        1452  0.0  0.6 323308  6184 ?        Sl   18   0:00 gdm-session-worker [pam/gdm-password]
+chimaera    1464  0.0  0.4 248820  4532 ?        Sl   18   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+chimaera    1468  0.0  0.3 172652  3576 tty2     Ssl+ 18   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+chimaera    1470  0.0  5.9 578752 59860 tty2     Sl+  18   0:31 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+chimaera    1482  0.0  0.3 197052  3236 tty2     Sl+  18   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+chimaera    1553  0.0  0.0  31244     0 ?        S    18   0:00 /usr/bin/VBoxClient --clipboard
+chimaera    1554  0.0  0.1 163512  1260 ?        Sl   18   0:02 /usr/bin/VBoxClient --clipboard
+chimaera    1565  0.0  0.0  31244     0 ?        S    18   0:00 /usr/bin/VBoxClient --seamless
+chimaera    1566  0.0  0.0 163480   412 ?        Sl   18   0:00 /usr/bin/VBoxClient --seamless
+chimaera    1572  0.0  0.0  31244     4 ?        S    18   0:00 /usr/bin/VBoxClient --draganddrop
+chimaera    1573  0.2  0.0 163996   704 ?        Sl   18  12:03 /usr/bin/VBoxClient --draganddrop
+chimaera    1580  0.0  0.0  31244     0 ?        S    18   0:00 /usr/bin/VBoxClient --vmsvga
+chimaera    1581  0.0  0.0 165760   848 ?        Sl   18   0:00 /usr/bin/VBoxClient --vmsvga
+chimaera    1589  0.0  0.0   6040    32 ?        Ss   18   0:02 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+chimaera    1613  0.0  0.2 305536  2956 ?        Ssl  18   0:00 /usr/libexec/at-spi-bus-launcher
+chimaera    1618  0.0  0.2   7248  2688 ?        S    18   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+chimaera    1633  0.0  0.1  98696  1376 ?        Ssl  18   0:00 /usr/libexec/gnome-session-ctl --monitor
+chimaera    1640  0.0  0.4 492952  4660 ?        Ssl  18   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+chimaera    1653  0.1 28.5 3813844 286524 ?      Ssl  18   7:35 /usr/bin/gnome-shell
+chimaera    1675  0.0  0.3 319576  3728 ?        Sl   18   0:00 ibus-daemon --panel disable --xim
+chimaera    1679  0.0  0.3 171336  3024 ?        Sl   18   0:00 /usr/libexec/ibus-memconf
+chimaera    1680  0.0  0.9 283744  9872 ?        Sl   18   0:05 /usr/libexec/ibus-extension-gtk3
+chimaera    1683  0.0  0.8 206556  8112 ?        Sl   18   0:01 /usr/libexec/ibus-x11 --kill-daemon
+chimaera    1685  0.0  0.2 245136  2540 ?        Sl   18   0:00 /usr/libexec/ibus-portal
+chimaera    1695  0.0  0.3 162912  3828 ?        Sl   18   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+chimaera    1700  0.0  0.1 244228  1444 ?        Ssl  18   0:00 /usr/libexec/xdg-permission-store
+chimaera    1705  0.0  0.6 581060  6292 ?        Sl   18   0:00 /usr/libexec/gnome-shell-calendar-server
+chimaera    1711  0.0  0.4 685660  4064 ?        Ssl  18   0:00 /usr/libexec/evolution-source-registry
+chimaera    1721  0.0  0.5 716232  5072 ?        Ssl  18   0:00 /usr/libexec/evolution-calendar-factory
+chimaera    1729  0.0  0.2 156204  2700 ?        Sl   18   0:00 /usr/libexec/dconf-service
+chimaera    1736  0.0  0.3 681812  3500 ?        Ssl  18   0:00 /usr/libexec/evolution-addressbook-factory
+chimaera    1755  0.0  0.3 2607172 3824 ?        Sl   18   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+chimaera    1761  0.0  0.4 322460  4448 ?        Sl   18   0:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+chimaera    1773  0.0  0.2 318280  2920 ?        Ssl  18   0:00 /usr/libexec/gsd-a11y-settings
+chimaera    1774  0.0  1.0 576788 10944 ?        Ssl  18   0:03 /usr/libexec/gsd-color
+chimaera    1776  0.0  0.3 382236  3732 ?        Ssl  18   0:00 /usr/libexec/gsd-datetime
+chimaera    1777  0.0  0.3 320344  3600 ?        Ssl  18   0:13 /usr/libexec/gsd-housekeeping
+chimaera    1781  0.0  0.8 354536  8116 ?        Ssl  18   0:01 /usr/libexec/gsd-keyboard
+chimaera    1782  0.0  0.7 696976  7608 ?        Ssl  18   0:01 /usr/libexec/gsd-media-keys
+chimaera    1785  0.0  1.0 355208 10384 ?        Ssl  18   0:01 /usr/libexec/gsd-power
+chimaera    1789  0.0  0.3 256852  3404 ?        Ssl  18   0:00 /usr/libexec/gsd-print-notifications
+chimaera    1793  0.0  0.2 465732  2588 ?        Ssl  18   0:00 /usr/libexec/gsd-rfkill
+chimaera    1794  0.0  0.3 244268  3208 ?        Ssl  18   0:00 /usr/libexec/gsd-screensaver-proxy
+chimaera    1796  0.0  0.3 473396  3652 ?        Ssl  18   0:00 /usr/libexec/gsd-sharing
+chimaera    1797  0.0  0.1 323784  1688 ?        Ssl  18   0:00 /usr/libexec/gsd-smartcard
+chimaera    1799  0.0  0.3 327972  3064 ?        Ssl  18   0:00 /usr/libexec/gsd-sound
+chimaera    1802  0.0  0.3 393588  3388 ?        Ssl  18   0:00 /usr/libexec/gsd-usb-protection
+chimaera    1805  0.0  0.7 354032  7884 ?        Ssl  18   0:01 /usr/libexec/gsd-wacom
+chimaera    1809  0.0  0.2 322604  2716 ?        Ssl  18   0:00 /usr/libexec/gsd-wwan
+chimaera    1813  0.0  1.0 355208 10312 ?        Ssl  18   0:01 /usr/libexec/gsd-xsettings
+chimaera    1818  0.0  0.3 231800  3572 ?        Sl   18   0:00 /usr/libexec/gsd-disk-utility-notify
+chimaera    1845  0.0  0.7 724312  7040 ?        Sl   18   0:02 /usr/libexec/evolution-data-server/evolution-alarm-notify
+chimaera    1849  0.0  0.3 171328  3192 ?        Sl   18   0:00 /usr/libexec/ibus-engine-simple
+chimaera    1898  0.0  0.3 350824  3120 ?        Sl   18   0:00 /usr/libexec/gsd-printer
+chimaera    1948  0.0  9.0 1303728 91348 ?       Sl   18   2:38 /snap/snap-store/518/usr/bin/snap-store --gapplication-service
+chimaera    1973  0.0  0.2 466168  2492 ?        Ssl  18   0:00 /usr/libexec/xdg-document-portal
+chimaera    2381  0.0  1.2 472460 12692 ?        Sl   18   0:12 update-notifier
+root        7665  0.0  0.0      0     0 ?        S<   19   0:00 [loop8]
+root       15111  0.0  0.3  37076  3336 ?        Ss   00:00   0:00 /usr/sbin/cupsd -l
+root       15113  0.0  0.3 180444  3128 ?        Ssl  00:00   0:00 /usr/sbin/cups-browsed
+chimaera   17952  0.0  3.0 823640 30624 ?        Ssl  09:05   0:01 /usr/libexec/gnome-terminal-server
+chimaera   17960  0.0  0.2  19256  2864 pts/1    Ss   09:05   0:00 bash
+root       18103  0.0  0.7 175096  7224 ?        Sl   11:17   0:00 gdm-session-worker [pam/gdm-password]
+root       18446  0.0  0.0      0     0 ?        I    16:31   0:03 [kworker/0:1-cgroup_destroy]
+root       18508  0.0  0.7 175100  7844 ?        Sl   17:35   0:00 gdm-session-worker [pam/gdm-password]
+root       18518  0.0  0.0      0     0 ?        I    17:35   0:01 [kworker/0:4-events]
+root       18525  0.0  0.7  13984  7676 ?        Ss   17:47   0:00 sshd: chimaera [priv]
+chimaera   18605  0.0  0.5  14116  5496 ?        S    17:47   0:00 sshd: chimaera@pts/0
+chimaera   18606  0.0  0.5  19408  5028 pts/0    Ss   17:47   0:00 -bash
+root       18645  0.0  0.0      0     0 ?        I    17:49   0:00 [kworker/u2:0-ext4-rsv-conversion]
+root       18834  0.0  0.0      0     0 ?        I    18:02   0:00 [kworker/u2:2-events_unbound]
+root       18945  0.0  0.0      0     0 ?        I    18:07   0:00 [kworker/u2:1-events_power_efficient]
+root       18993  0.0  0.0      0     0 ?        I    18:08   0:00 [kworker/0:0-events]
+root       18994  0.1  0.0      0     0 ?        I    18:08   0:00 [kworker/0:2-events]
+chimaera   18998  0.3  0.9  31148  9368 pts/1    S+   18:11   0:00 mc
+chimaera   19000  0.6  0.4  19256  4800 pts/2    Ss+  18:11   0:00 bash -rcfile .bashrc
+chimaera   19006  0.0  0.3  20132  3412 pts/0    R+   18:11   0:00 ps aux
+chimaera@Laerna:~$  kill 15  18998 
+-bash: kill: (15) - Operation not permitted
+chimaera@Laerna:~$ kill 15  18998 sudo 
+[sudo] password for chimaera: 
+kill: (18998): No such process
+chimaera@Laerna:~$ sudo kill 15 18998 9
+kill: (18998): No such process
+chimaera@Laerna:~$ sudo kill 9 18998 sudo kill 15 18998 kill 15 ps aux
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.6 168892  6848 ?        Ss   18   0:12 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    18   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   18   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   18   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   18   0:00 [kworker/0:0H-kblockd]
+root           8  0.0  0.0      0     0 ?        I<   18   0:00 [mm_percpu_wq]
+root           9  0.0  0.0      0     0 ?        S    18   0:05 [ksoftirqd/0]
+root          10  0.0  0.0      0     0 ?        I    18   0:28 [rcu_sched]
+root          11  0.0  0.0      0     0 ?        S    18   0:04 [migration/0]
+root          12  0.0  0.0      0     0 ?        S    18   0:00 [idle_inject/0]
+root          14  0.0  0.0      0     0 ?        S    18   0:00 [cpuhp/0]
+root          15  0.0  0.0      0     0 ?        S    18   0:00 [kdevtmpfs]
+root          16  0.0  0.0      0     0 ?        I<   18   0:00 [netns]
+root          17  0.0  0.0      0     0 ?        S    18   0:00 [rcu_tasks_kthre]
+root          18  0.0  0.0      0     0 ?        S    18   0:00 [rcu_tasks_rude_]
+root          19  0.0  0.0      0     0 ?        S    18   0:00 [rcu_tasks_trace]
+root          20  0.0  0.0      0     0 ?        S    18   0:00 [kauditd]
+root          21  0.0  0.0      0     0 ?        S    18   0:00 [khungtaskd]
+root          22  0.0  0.0      0     0 ?        S    18   0:00 [oom_reaper]
+root          23  0.0  0.0      0     0 ?        I<   18   0:00 [writeback]
+root          24  0.0  0.0      0     0 ?        S    18   0:00 [kcompactd0]
+root          25  0.0  0.0      0     0 ?        SN   18   0:00 [ksmd]
+root          26  0.0  0.0      0     0 ?        SN   18   0:01 [khugepaged]
+root          72  0.0  0.0      0     0 ?        I<   18   0:00 [kintegrityd]
+root          73  0.0  0.0      0     0 ?        I<   18   0:00 [kblockd]
+root          74  0.0  0.0      0     0 ?        I<   18   0:00 [blkcg_punt_bio]
+root          75  0.0  0.0      0     0 ?        I<   18   0:00 [tpm_dev_wq]
+root          76  0.0  0.0      0     0 ?        I<   18   0:00 [ata_sff]
+root          77  0.0  0.0      0     0 ?        I<   18   0:00 [md]
+root          78  0.0  0.0      0     0 ?        I<   18   0:00 [edac-poller]
+root          79  0.0  0.0      0     0 ?        I<   18   0:00 [devfreq_wq]
+root          80  0.0  0.0      0     0 ?        S    18   0:00 [watchdogd]
+root          82  0.0  0.0      0     0 ?        I<   18   0:00 [pm_wq]
+root          84  0.0  0.0      0     0 ?        S    18   0:19 [kswapd0]
+root          85  0.0  0.0      0     0 ?        S    18   0:00 [ecryptfs-kthrea]
+root          87  0.0  0.0      0     0 ?        I<   18   0:00 [kthrotld]
+root          88  0.0  0.0      0     0 ?        I<   18   0:00 [acpi_thermal_pm]
+root          89  0.0  0.0      0     0 ?        S    18   0:00 [scsi_eh_0]
+root          90  0.0  0.0      0     0 ?        I<   18   0:00 [scsi_tmf_0]
+root          91  0.0  0.0      0     0 ?        S    18   0:00 [scsi_eh_1]
+root          92  0.0  0.0      0     0 ?        I<   18   0:00 [scsi_tmf_1]
+root          94  0.0  0.0      0     0 ?        I<   18   0:00 [vfio-irqfd-clea]
+root          96  0.0  0.0      0     0 ?        I<   18   0:00 [ipv6_addrconf]
+root         105  0.0  0.0      0     0 ?        I<   18   0:00 [kstrp]
+root         108  0.0  0.0      0     0 ?        I<   18   0:00 [zswap-shrink]
+root         109  0.0  0.0      0     0 ?        I<   18   0:00 [kworker/u3:0]
+root         114  0.0  0.0      0     0 ?        I<   18   0:00 [charger_manager]
+root         115  0.0  0.0      0     0 ?        I<   18   0:09 [kworker/0:1H-kblockd]
+root         152  0.0  0.0      0     0 ?        S    18   0:00 [scsi_eh_2]
+root         153  0.0  0.0      0     0 ?        I<   18   0:00 [scsi_tmf_2]
+root         182  0.0  0.0      0     0 ?        S    18   0:01 [jbd2/sda1-8]
+root         183  0.0  0.0      0     0 ?        I<   18   0:00 [ext4-rsv-conver]
+root         222  0.0  1.2  68480 12516 ?        S<s  18   0:03 /lib/systemd/systemd-journald
+root         249  0.0  0.1  23696  1500 ?        Ss   18   0:01 /lib/systemd/systemd-udevd
+root         257  0.0  0.0      0     0 ?        S<   18   0:00 [loop0]
+root         260  0.0  0.0      0     0 ?        S<   18   0:00 [loop2]
+root         262  0.0  0.0      0     0 ?        S<   18   0:00 [loop3]
+root         264  0.0  0.0      0     0 ?        S<   18   0:00 [loop4]
+root         265  0.0  0.0      0     0 ?        S<   18   0:00 [loop5]
+root         266  0.0  0.0      0     0 ?        S<   18   0:00 [loop6]
+root         267  0.0  0.0      0     0 ?        S<   18   0:00 [loop7]
+systemd+     293  0.0  0.3  24224  3524 ?        Ss   18   0:08 /lib/systemd/systemd-resolved
+root         357  0.0  0.0      0     0 ?        S    18   0:00 [irq/18-vmwgfx]
+root         358  0.0  0.0      0     0 ?        I<   18   0:00 [ttm_swap]
+root         365  0.0  0.0      0     0 ?        I<   18   0:00 [cryptd]
+systemd+     466  0.0  0.1  90456  1992 ?        Ssl  18   0:01 /lib/systemd/systemd-timesyncd
+root         505  0.0  0.3 246884  3920 ?        Ssl  18   0:08 /usr/lib/accountsservice/accounts-daemon
+root         506  0.0  0.0   2548   248 ?        Ss   18   0:00 /usr/sbin/acpid
+avahi        509  0.0  0.1   8532  1856 ?        Ss   18   0:04 avahi-daemon: running [Laerna.local]
+root         511  0.0  0.1  18052  1828 ?        Ss   18   0:00 /usr/sbin/cron -f
+message+     513  0.0  0.4   9940  4340 ?        Ss   18   1:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         514  0.0  0.6 344316  6832 ?        Ssl  18   4:31 /usr/sbin/NetworkManager --no-daemon
+root         535  0.0  0.3  47956  3032 ?        Ss   18   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         537  0.0  0.6 249704  6336 ?        Ssl  18   0:06 /usr/lib/policykit-1/polkitd --no-debug
+syslog       542  0.0  0.2 224356  2080 ?        Ssl  18   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         543  0.0  1.5 669820 15088 ?        Ssl  18   1:07 /usr/lib/snapd/snapd
+root         544  0.0  0.2 244240  2128 ?        Ssl  18   0:00 /usr/libexec/switcheroo-control
+root         545  0.0  0.3  17140  3288 ?        Ss   18   0:01 /lib/systemd/systemd-logind
+root         548  0.0  0.3 392808  3412 ?        Ssl  18   0:00 /usr/lib/udisks2/udisksd
+root         550  0.0  0.0  13688   476 ?        Ss   18   0:02 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        557  0.0  0.0   8352    40 ?        S    18   0:00 avahi-daemon: chroot helper
+root         612  0.0  0.2 126480  2988 ?        Ssl  18   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         617  0.0  0.3 313748  3892 ?        Ssl  18   0:00 /usr/sbin/ModemManager --filter-policy=strict
+root         623  0.0  0.2  12184  2644 ?        Ss   18   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+whoopsie     652  0.0  0.3 400588  3836 ?        Ssl  18   0:01 /usr/bin/whoopsie -f
+kernoops     656  0.0  0.1  11264  1480 ?        Ss   18   0:19 /usr/sbin/kerneloops --test
+kernoops     660  0.0  0.0  11264    72 ?        Ss   18   0:19 /usr/sbin/kerneloops
+root         833  0.0  0.4 248240  4468 ?        Ssl  18   0:00 /usr/sbin/gdm3
+root         838  0.0  0.1 304056  1172 ?        Sl   18   1:08 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+rtkit        879  0.0  0.1 152940  1540 ?        SNsl 18   0:05 /usr/libexec/rtkit-daemon
+root         973  0.0  0.1 260748  1856 ?        Ssl  18   0:00 /usr/lib/upower/upowerd
+root        1191  0.0  0.3  13984  3200 ?        Ss   18   0:00 sshd: chimaera [priv]
+colord      1198  0.0  0.4 254872  4376 ?        Ssl  18   0:00 /usr/libexec/colord
+chimaera    1214  0.0  0.5  19300  5280 ?        Ss   18   0:02 /lib/systemd/systemd --user
+chimaera    1215  0.0  0.0 103576    56 ?        S    18   0:00 (sd-pam)
+chimaera    1220  0.0  0.5 1490972 5576 ?        Ssl  18   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+chimaera    1222  0.0  0.7 519920  7952 ?        SNsl 18   0:01 /usr/libexec/tracker-miner-fs
+chimaera    1226  0.0  0.5   9624  5124 ?        Ss   18   0:02 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+chimaera    1253  0.0  0.3 248344  3068 ?        Ssl  18   0:00 /usr/libexec/gvfsd
+chimaera    1262  0.0  0.2 378344  2748 ?        Sl   18   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+chimaera    1264  0.0  0.4 322564  4388 ?        Ssl  18   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+chimaera    1275  0.0  0.3 246612  3056 ?        Ssl  18   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+chimaera    1282  0.0  0.3 244336  3216 ?        Ssl  18   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+chimaera    1292  0.0  0.3 244508  3380 ?        Ssl  18   0:00 /usr/libexec/gvfs-goa-volume-monitor
+chimaera    1297  0.0  0.4 631664  4184 ?        Sl   18   0:00 /usr/libexec/goa-daemon
+chimaera    1315  0.0  0.3 397120  3076 ?        Sl   18   0:00 /usr/libexec/goa-identity-service
+chimaera    1333  0.0  0.2 325356  2792 ?        Ssl  18   0:18 /usr/libexec/gvfs-afc-volume-monitor
+chimaera    1365  0.0  0.1  14116  1148 ?        S    18   0:03 sshd: chimaera@notty
+chimaera    1366  0.0  0.1   5892  1372 ?        Ss   18   0:00 /usr/lib/openssh/sftp-server
+chimaera    1376  0.0  0.3 170908  3128 ?        Ssl  18   0:00 /usr/libexec/gvfsd-metadata
+root        1452  0.0  0.6 323308  6184 ?        Sl   18   0:00 gdm-session-worker [pam/gdm-password]
+chimaera    1464  0.0  0.4 248820  4532 ?        Sl   18   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+chimaera    1468  0.0  0.3 172652  3580 tty2     Ssl+ 18   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+chimaera    1470  0.0  5.9 578752 59860 tty2     Sl+  18   0:31 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+chimaera    1482  0.0  0.3 197052  3236 tty2     Sl+  18   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+chimaera    1553  0.0  0.0  31244     4 ?        S    18   0:00 /usr/bin/VBoxClient --clipboard
+chimaera    1554  0.0  0.1 163512  1988 ?        Sl   18   0:02 /usr/bin/VBoxClient --clipboard
+chimaera    1565  0.0  0.0  31244     4 ?        S    18   0:00 /usr/bin/VBoxClient --seamless
+chimaera    1566  0.0  0.0 163480   412 ?        Sl   18   0:00 /usr/bin/VBoxClient --seamless
+chimaera    1572  0.0  0.0  31244     8 ?        S    18   0:00 /usr/bin/VBoxClient --draganddrop
+chimaera    1573  0.2  0.0 163996   704 ?        Sl   18  12:04 /usr/bin/VBoxClient --draganddrop
+chimaera    1580  0.0  0.0  31244     4 ?        S    18   0:00 /usr/bin/VBoxClient --vmsvga
+chimaera    1581  0.0  0.0 165760   852 ?        Sl   18   0:00 /usr/bin/VBoxClient --vmsvga
+chimaera    1589  0.0  0.0   6040    36 ?        Ss   18   0:02 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+chimaera    1613  0.0  0.2 305536  2956 ?        Ssl  18   0:00 /usr/libexec/at-spi-bus-launcher
+chimaera    1618  0.0  0.2   7248  2688 ?        S    18   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+chimaera    1633  0.0  0.1  98696  1376 ?        Ssl  18   0:00 /usr/libexec/gnome-session-ctl --monitor
+chimaera    1640  0.0  0.4 492952  4660 ?        Ssl  18   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+chimaera    1653  0.1 28.5 3813844 286592 ?      Ssl  18   7:36 /usr/bin/gnome-shell
+chimaera    1675  0.0  0.3 319576  3728 ?        Sl   18   0:00 ibus-daemon --panel disable --xim
+chimaera    1679  0.0  0.3 171336  3024 ?        Sl   18   0:00 /usr/libexec/ibus-memconf
+chimaera    1680  0.0  0.9 283744  9872 ?        Sl   18   0:05 /usr/libexec/ibus-extension-gtk3
+chimaera    1683  0.0  0.8 206556  8112 ?        Sl   18   0:01 /usr/libexec/ibus-x11 --kill-daemon
+chimaera    1685  0.0  0.2 245136  2540 ?        Sl   18   0:00 /usr/libexec/ibus-portal
+chimaera    1695  0.0  0.3 162912  3828 ?        Sl   18   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+chimaera    1700  0.0  0.1 244228  1444 ?        Ssl  18   0:00 /usr/libexec/xdg-permission-store
+chimaera    1705  0.0  0.6 581060  6292 ?        Sl   18   0:00 /usr/libexec/gnome-shell-calendar-server
+chimaera    1711  0.0  0.4 685660  4064 ?        Ssl  18   0:00 /usr/libexec/evolution-source-registry
+chimaera    1721  0.0  0.5 716232  5072 ?        Ssl  18   0:00 /usr/libexec/evolution-calendar-factory
+chimaera    1729  0.0  0.2 156204  2700 ?        Sl   18   0:00 /usr/libexec/dconf-service
+chimaera    1736  0.0  0.3 681812  3500 ?        Ssl  18   0:00 /usr/libexec/evolution-addressbook-factory
+chimaera    1755  0.0  0.3 2607172 3824 ?        Sl   18   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+chimaera    1761  0.0  0.4 322460  4448 ?        Sl   18   0:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+chimaera    1773  0.0  0.2 318280  2920 ?        Ssl  18   0:00 /usr/libexec/gsd-a11y-settings
+chimaera    1774  0.0  1.0 576788 10944 ?        Ssl  18   0:03 /usr/libexec/gsd-color
+chimaera    1776  0.0  0.3 382236  3732 ?        Ssl  18   0:00 /usr/libexec/gsd-datetime
+chimaera    1777  0.0  0.3 320344  3600 ?        Ssl  18   0:13 /usr/libexec/gsd-housekeeping
+chimaera    1781  0.0  0.8 354536  8116 ?        Ssl  18   0:01 /usr/libexec/gsd-keyboard
+chimaera    1782  0.0  0.7 696976  7608 ?        Ssl  18   0:01 /usr/libexec/gsd-media-keys
+chimaera    1785  0.0  1.0 355208 10384 ?        Ssl  18   0:01 /usr/libexec/gsd-power
+chimaera    1789  0.0  0.3 256852  3404 ?        Ssl  18   0:00 /usr/libexec/gsd-print-notifications
+chimaera    1793  0.0  0.2 465732  2588 ?        Ssl  18   0:00 /usr/libexec/gsd-rfkill
+chimaera    1794  0.0  0.3 244268  3208 ?        Ssl  18   0:00 /usr/libexec/gsd-screensaver-proxy
+chimaera    1796  0.0  0.3 473396  3652 ?        Ssl  18   0:00 /usr/libexec/gsd-sharing
+chimaera    1797  0.0  0.1 323784  1688 ?        Ssl  18   0:00 /usr/libexec/gsd-smartcard
+chimaera    1799  0.0  0.3 327972  3064 ?        Ssl  18   0:00 /usr/libexec/gsd-sound
+chimaera    1802  0.0  0.3 393588  3388 ?        Ssl  18   0:00 /usr/libexec/gsd-usb-protection
+chimaera    1805  0.0  0.7 354032  7884 ?        Ssl  18   0:01 /usr/libexec/gsd-wacom
+chimaera    1809  0.0  0.2 322604  2716 ?        Ssl  18   0:00 /usr/libexec/gsd-wwan
+chimaera    1813  0.0  1.0 355208 10312 ?        Ssl  18   0:01 /usr/libexec/gsd-xsettings
+chimaera    1818  0.0  0.3 231800  3572 ?        Sl   18   0:00 /usr/libexec/gsd-disk-utility-notify
+chimaera    1845  0.0  0.7 724312  7040 ?        Sl   18   0:02 /usr/libexec/evolution-data-server/evolution-alarm-notify
+chimaera    1849  0.0  0.3 171328  3192 ?        Sl   18   0:00 /usr/libexec/ibus-engine-simple
+chimaera    1898  0.0  0.3 350824  3120 ?        Sl   18   0:00 /usr/libexec/gsd-printer
+chimaera    1948  0.0  9.0 1303728 91348 ?       Sl   18   2:38 /snap/snap-store/518/usr/bin/snap-store --gapplication-service
+chimaera    1973  0.0  0.2 466168  2492 ?        Ssl  18   0:00 /usr/libexec/xdg-document-portal
+chimaera    2381  0.0  1.2 472460 12692 ?        Sl   18   0:12 update-notifier
+root        7665  0.0  0.0      0     0 ?        S<   19   0:00 [loop8]
+root       15111  0.0  0.3  37076  3340 ?        Ss   00:00   0:00 /usr/sbin/cupsd -l
+root       15113  0.0  0.3 180444  3132 ?        Ssl  00:00   0:00 /usr/sbin/cups-browsed
+chimaera   17952  0.0  3.0 823640 30624 ?        Ssl  09:05   0:01 /usr/libexec/gnome-terminal-server
+chimaera   17960  0.0  0.3  19256  3832 pts/1    Ss+  09:05   0:00 bash
+root       18103  0.0  0.7 175096  7224 ?        Sl   11:17   0:00 gdm-session-worker [pam/gdm-password]
+root       18446  0.0  0.0      0     0 ?        I    16:31   0:03 [kworker/0:1-cgroup_destroy]
+root       18508  0.0  0.7 175100  7844 ?        Sl   17:35   0:00 gdm-session-worker [pam/gdm-password]
+root       18525  0.0  0.7  13984  7676 ?        Ss   17:47   0:00 sshd: chimaera [priv]
+chimaera   18605  0.0  0.5  14116  5496 ?        S    17:47   0:00 sshd: chimaera@pts/0
+chimaera   18606  0.0  0.5  19408  5032 pts/0    Ss   17:47   0:00 -bash
+root       18834  0.0  0.0      0     0 ?        I    18:02   0:00 [kworker/u2:2-events_power_efficient]
+root       18945  0.0  0.0      0     0 ?        I    18:07   0:00 [kworker/u2:1-events_unbound]
+root       18994  0.0  0.0      0     0 ?        I    18:08   0:00 [kworker/0:2-events]
+root       19010  0.0  0.0      0     0 ?        I    18:14   0:00 [kworker/u2:0-ext4-rsv-conversion]
+chimaera   19013  0.0  0.3  20132  3364 pts/0    R+   18:15   0:00 ps aux
+chimaera@Laerna:~$ ps auxps aux
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.6 168892  6844 ?        Ss   18   0:12 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    18   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   18   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   18   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   18   0:00 [kworker/0:0H-kblockd]
+root           8  0.0  0.0      0     0 ?        I<   18   0:00 [mm_percpu_wq]
+root           9  0.0  0.0      0     0 ?        S    18   0:05 [ksoftirqd/0]
+root          10  0.0  0.0      0     0 ?        I    18   0:28 [rcu_sched]
+root          11  0.0  0.0      0     0 ?        S    18   0:04 [migration/0]
+root          12  0.0  0.0      0     0 ?        S    18   0:00 [idle_inject/0]
+root          14  0.0  0.0      0     0 ?        S    18   0:00 [cpuhp/0]
+root          15  0.0  0.0      0     0 ?        S    18   0:00 [kdevtmpfs]
+root          16  0.0  0.0      0     0 ?        I<   18   0:00 [netns]
+root          17  0.0  0.0      0     0 ?        S    18   0:00 [rcu_tasks_kthre]
+root          18  0.0  0.0      0     0 ?        S    18   0:00 [rcu_tasks_rude_]
+root          19  0.0  0.0      0     0 ?        S    18   0:00 [rcu_tasks_trace]
+root          20  0.0  0.0      0     0 ?        S    18   0:00 [kauditd]
+root          21  0.0  0.0      0     0 ?        S    18   0:00 [khungtaskd]
+root          22  0.0  0.0      0     0 ?        S    18   0:00 [oom_reaper]
+root          23  0.0  0.0      0     0 ?        I<   18   0:00 [writeback]
+root          24  0.0  0.0      0     0 ?        S    18   0:00 [kcompactd0]
+root          25  0.0  0.0      0     0 ?        SN   18   0:00 [ksmd]
+root          26  0.0  0.0      0     0 ?        SN   18   0:01 [khugepaged]
+root          72  0.0  0.0      0     0 ?        I<   18   0:00 [kintegrityd]
+root          73  0.0  0.0      0     0 ?        I<   18   0:00 [kblockd]
+root          74  0.0  0.0      0     0 ?        I<   18   0:00 [blkcg_punt_bio]
+root          75  0.0  0.0      0     0 ?        I<   18   0:00 [tpm_dev_wq]
+root          76  0.0  0.0      0     0 ?        I<   18   0:00 [ata_sff]
+root          77  0.0  0.0      0     0 ?        I<   18   0:00 [md]
+root          78  0.0  0.0      0     0 ?        I<   18   0:00 [edac-poller]
+root          79  0.0  0.0      0     0 ?        I<   18   0:00 [devfreq_wq]
+root          80  0.0  0.0      0     0 ?        S    18   0:00 [watchdogd]
+root          82  0.0  0.0      0     0 ?        I<   18   0:00 [pm_wq]
+root          84  0.0  0.0      0     0 ?        S    18   0:19 [kswapd0]
+root          85  0.0  0.0      0     0 ?        S    18   0:00 [ecryptfs-kthrea]
+root          87  0.0  0.0      0     0 ?        I<   18   0:00 [kthrotld]
+root          88  0.0  0.0      0     0 ?        I<   18   0:00 [acpi_thermal_pm]
+root          89  0.0  0.0      0     0 ?        S    18   0:00 [scsi_eh_0]
+root          90  0.0  0.0      0     0 ?        I<   18   0:00 [scsi_tmf_0]
+root          91  0.0  0.0      0     0 ?        S    18   0:00 [scsi_eh_1]
+root          92  0.0  0.0      0     0 ?        I<   18   0:00 [scsi_tmf_1]
+root          94  0.0  0.0      0     0 ?        I<   18   0:00 [vfio-irqfd-clea]
+root          96  0.0  0.0      0     0 ?        I<   18   0:00 [ipv6_addrconf]
+root         105  0.0  0.0      0     0 ?        I<   18   0:00 [kstrp]
+root         108  0.0  0.0      0     0 ?        I<   18   0:00 [zswap-shrink]
+root         109  0.0  0.0      0     0 ?        I<   18   0:00 [kworker/u3:0]
+root         114  0.0  0.0      0     0 ?        I<   18   0:00 [charger_manager]
+root         115  0.0  0.0      0     0 ?        I<   18   0:09 [kworker/0:1H-kblockd]
+root         152  0.0  0.0      0     0 ?        S    18   0:00 [scsi_eh_2]
+root         153  0.0  0.0      0     0 ?        I<   18   0:00 [scsi_tmf_2]
+root         182  0.0  0.0      0     0 ?        S    18   0:01 [jbd2/sda1-8]
+root         183  0.0  0.0      0     0 ?        I<   18   0:00 [ext4-rsv-conver]
+root         222  0.0  1.2  68480 12120 ?        S<s  18   0:03 /lib/systemd/systemd-journald
+root         249  0.0  0.1  23696  1500 ?        Ss   18   0:01 /lib/systemd/systemd-udevd
+root         257  0.0  0.0      0     0 ?        S<   18   0:00 [loop0]
+root         260  0.0  0.0      0     0 ?        S<   18   0:00 [loop2]
+root         262  0.0  0.0      0     0 ?        S<   18   0:00 [loop3]
+root         264  0.0  0.0      0     0 ?        S<   18   0:00 [loop4]
+root         265  0.0  0.0      0     0 ?        S<   18   0:00 [loop5]
+root         266  0.0  0.0      0     0 ?        S<   18   0:00 [loop6]
+root         267  0.0  0.0      0     0 ?        S<   18   0:00 [loop7]
+systemd+     293  0.0  0.3  24224  3524 ?        Ss   18   0:08 /lib/systemd/systemd-resolved
+root         357  0.0  0.0      0     0 ?        S    18   0:00 [irq/18-vmwgfx]
+root         358  0.0  0.0      0     0 ?        I<   18   0:00 [ttm_swap]
+root         365  0.0  0.0      0     0 ?        I<   18   0:00 [cryptd]
+systemd+     466  0.0  0.1  90456  1992 ?        Ssl  18   0:01 /lib/systemd/systemd-timesyncd
+root         505  0.0  0.3 246884  3920 ?        Ssl  18   0:08 /usr/lib/accountsservice/accounts-daemon
+root         506  0.0  0.0   2548   248 ?        Ss   18   0:00 /usr/sbin/acpid
+avahi        509  0.0  0.1   8532  1856 ?        Ss   18   0:04 avahi-daemon: running [Laerna.local]
+root         511  0.0  0.1  18052  1828 ?        Ss   18   0:00 /usr/sbin/cron -f
+message+     513  0.0  0.4   9940  4336 ?        Ss   18   1:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         514  0.0  0.6 344316  6812 ?        Ssl  18   4:31 /usr/sbin/NetworkManager --no-daemon
+root         535  0.0  0.3  47956  3032 ?        Ss   18   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         537  0.0  0.6 249704  6316 ?        Ssl  18   0:06 /usr/lib/policykit-1/polkitd --no-debug
+syslog       542  0.0  0.2 224356  2080 ?        Ssl  18   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         543  0.0  1.4 669820 14900 ?        Ssl  18   1:07 /usr/lib/snapd/snapd
+root         544  0.0  0.2 244240  2128 ?        Ssl  18   0:00 /usr/libexec/switcheroo-control
+root         545  0.0  0.3  17140  3288 ?        Ss   18   0:01 /lib/systemd/systemd-logind
+root         548  0.0  0.3 392808  3412 ?        Ssl  18   0:00 /usr/lib/udisks2/udisksd
+root         550  0.0  0.0  13688   476 ?        Ss   18   0:02 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        557  0.0  0.0   8352    40 ?        S    18   0:00 avahi-daemon: chroot helper
+root         612  0.0  0.2 126480  2988 ?        Ssl  18   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         617  0.0  0.3 313748  3892 ?        Ssl  18   0:00 /usr/sbin/ModemManager --filter-policy=strict
+root         623  0.0  0.2  12184  2592 ?        Ss   18   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+whoopsie     652  0.0  0.3 400588  3828 ?        Ssl  18   0:01 /usr/bin/whoopsie -f
+kernoops     656  0.0  0.1  11264  1480 ?        Ss   18   0:19 /usr/sbin/kerneloops --test
+kernoops     660  0.0  0.0  11264    72 ?        Ss   18   0:19 /usr/sbin/kerneloops
+root         833  0.0  0.4 248240  4468 ?        Ssl  18   0:00 /usr/sbin/gdm3
+root         838  0.0  0.1 304056  1172 ?        Sl   18   1:08 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+rtkit        879  0.0  0.1 152940  1540 ?        SNsl 18   0:05 /usr/libexec/rtkit-daemon
+root         973  0.0  0.1 260748  1856 ?        Ssl  18   0:00 /usr/lib/upower/upowerd
+root        1191  0.0  0.3  13984  3200 ?        Ss   18   0:00 sshd: chimaera [priv]
+colord      1198  0.0  0.4 254872  4376 ?        Ssl  18   0:00 /usr/libexec/colord
+chimaera    1214  0.0  0.5  19300  5280 ?        Ss   18   0:02 /lib/systemd/systemd --user
+chimaera    1215  0.0  0.0 103576    56 ?        S    18   0:00 (sd-pam)
+chimaera    1220  0.0  0.9 1490972 9576 ?        Ssl  18   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+chimaera    1222  0.0  0.7 519920  7952 ?        SNsl 18   0:01 /usr/libexec/tracker-miner-fs
+chimaera    1226  0.0  0.5   9624  5124 ?        Ss   18   0:02 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+chimaera    1253  0.0  0.3 248344  3068 ?        Ssl  18   0:00 /usr/libexec/gvfsd
+chimaera    1262  0.0  0.2 378344  2748 ?        Sl   18   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+chimaera    1264  0.0  0.4 322564  4388 ?        Ssl  18   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+chimaera    1275  0.0  0.3 246612  3056 ?        Ssl  18   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+chimaera    1282  0.0  0.3 244336  3216 ?        Ssl  18   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+chimaera    1292  0.0  0.3 244508  3380 ?        Ssl  18   0:00 /usr/libexec/gvfs-goa-volume-monitor
+chimaera    1297  0.0  0.4 631664  4184 ?        Sl   18   0:00 /usr/libexec/goa-daemon
+chimaera    1315  0.0  0.3 397120  3076 ?        Sl   18   0:00 /usr/libexec/goa-identity-service
+chimaera    1333  0.0  0.2 325356  2792 ?        Ssl  18   0:18 /usr/libexec/gvfs-afc-volume-monitor
+chimaera    1365  0.0  0.1  14116  1148 ?        S    18   0:03 sshd: chimaera@notty
+chimaera    1366  0.0  0.1   5892  1372 ?        Ss   18   0:00 /usr/lib/openssh/sftp-server
+chimaera    1376  0.0  0.3 170908  3128 ?        Ssl  18   0:00 /usr/libexec/gvfsd-metadata
+root        1452  0.0  0.6 323308  6184 ?        Sl   18   0:00 gdm-session-worker [pam/gdm-password]
+chimaera    1464  0.0  0.4 248820  4532 ?        Sl   18   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+chimaera    1468  0.0  0.3 172652  3580 tty2     Ssl+ 18   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+chimaera    1470  0.0  5.9 578752 59844 tty2     Sl+  18   0:33 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+chimaera    1482  0.0  0.3 197052  3236 tty2     Sl+  18   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+chimaera    1553  0.0  0.0  31244     4 ?        S    18   0:00 /usr/bin/VBoxClient --clipboard
+chimaera    1554  0.0  0.1 163512  1984 ?        Sl   18   0:02 /usr/bin/VBoxClient --clipboard
+chimaera    1565  0.0  0.0  31244     4 ?        S    18   0:00 /usr/bin/VBoxClient --seamless
+chimaera    1566  0.0  0.0 163480   412 ?        Sl   18   0:00 /usr/bin/VBoxClient --seamless
+chimaera    1572  0.0  0.0  31244     8 ?        S    18   0:00 /usr/bin/VBoxClient --draganddrop
+chimaera    1573  0.2  0.0 163996   704 ?        Sl   18  12:04 /usr/bin/VBoxClient --draganddrop
+chimaera    1580  0.0  0.0  31244     4 ?        S    18   0:00 /usr/bin/VBoxClient --vmsvga
+chimaera    1581  0.0  0.0 165760   848 ?        Sl   18   0:00 /usr/bin/VBoxClient --vmsvga
+chimaera    1589  0.0  0.0   6040    36 ?        Ss   18   0:02 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+chimaera    1613  0.0  0.2 305536  2956 ?        Ssl  18   0:00 /usr/libexec/at-spi-bus-launcher
+chimaera    1618  0.0  0.2   7248  2688 ?        S    18   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+chimaera    1633  0.0  0.1  98696  1376 ?        Ssl  18   0:00 /usr/libexec/gnome-session-ctl --monitor
+chimaera    1640  0.0  0.4 492952  4660 ?        Ssl  18   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+chimaera    1653  0.1 28.4 3813844 285748 ?      Ssl  18   7:40 /usr/bin/gnome-shell
+chimaera    1675  0.0  0.3 319576  3716 ?        Sl   18   0:00 ibus-daemon --panel disable --xim
+chimaera    1679  0.0  0.3 171336  3024 ?        Sl   18   0:00 /usr/libexec/ibus-memconf
+chimaera    1680  0.0  0.9 283744  9860 ?        Sl   18   0:05 /usr/libexec/ibus-extension-gtk3
+chimaera    1683  0.0  0.8 206556  8112 ?        Sl   18   0:01 /usr/libexec/ibus-x11 --kill-daemon
+chimaera    1685  0.0  0.2 245136  2540 ?        Sl   18   0:00 /usr/libexec/ibus-portal
+chimaera    1695  0.0  0.3 162912  3828 ?        Sl   18   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+chimaera    1700  0.0  0.1 244228  1444 ?        Ssl  18   0:00 /usr/libexec/xdg-permission-store
+chimaera    1705  0.0  0.6 581060  6292 ?        Sl   18   0:00 /usr/libexec/gnome-shell-calendar-server
+chimaera    1711  0.0  0.4 685660  4064 ?        Ssl  18   0:00 /usr/libexec/evolution-source-registry
+chimaera    1721  0.0  0.5 716232  5072 ?        Ssl  18   0:00 /usr/libexec/evolution-calendar-factory
+chimaera    1729  0.0  0.2 156204  2700 ?        Sl   18   0:00 /usr/libexec/dconf-service
+chimaera    1736  0.0  0.3 681812  3500 ?        Ssl  18   0:00 /usr/libexec/evolution-addressbook-factory
+chimaera    1755  0.0  0.3 2607172 3824 ?        Sl   18   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+chimaera    1761  0.0  0.4 322460  4448 ?        Sl   18   0:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+chimaera    1773  0.0  0.2 318280  2920 ?        Ssl  18   0:00 /usr/libexec/gsd-a11y-settings
+chimaera    1774  0.0  1.0 576788 10924 ?        Ssl  18   0:03 /usr/libexec/gsd-color
+chimaera    1776  0.0  0.3 382236  3732 ?        Ssl  18   0:00 /usr/libexec/gsd-datetime
+chimaera    1777  0.0  0.3 320344  3600 ?        Ssl  18   0:13 /usr/libexec/gsd-housekeeping
+chimaera    1781  0.0  0.8 354536  8116 ?        Ssl  18   0:01 /usr/libexec/gsd-keyboard
+chimaera    1782  0.0  0.8 696976  8632 ?        Ssl  18   0:01 /usr/libexec/gsd-media-keys
+chimaera    1785  0.0  1.0 355208 10372 ?        Ssl  18   0:01 /usr/libexec/gsd-power
+chimaera    1789  0.0  0.3 256852  3404 ?        Ssl  18   0:00 /usr/libexec/gsd-print-notifications
+chimaera    1793  0.0  0.2 465732  2588 ?        Ssl  18   0:00 /usr/libexec/gsd-rfkill
+chimaera    1794  0.0  0.3 244268  3208 ?        Ssl  18   0:00 /usr/libexec/gsd-screensaver-proxy
+chimaera    1796  0.0  0.3 473396  3484 ?        Ssl  18   0:00 /usr/libexec/gsd-sharing
+chimaera    1797  0.0  0.1 323784  1688 ?        Ssl  18   0:00 /usr/libexec/gsd-smartcard
+chimaera    1799  0.0  0.3 327972  3064 ?        Ssl  18   0:00 /usr/libexec/gsd-sound
+chimaera    1802  0.0  0.3 393588  3388 ?        Ssl  18   0:00 /usr/libexec/gsd-usb-protection
+chimaera    1805  0.0  0.7 354032  7884 ?        Ssl  18   0:01 /usr/libexec/gsd-wacom
+chimaera    1809  0.0  0.2 322604  2716 ?        Ssl  18   0:00 /usr/libexec/gsd-wwan
+chimaera    1813  0.0  1.0 355208 10312 ?        Ssl  18   0:01 /usr/libexec/gsd-xsettings
+chimaera    1818  0.0  0.3 231800  3572 ?        Sl   18   0:00 /usr/libexec/gsd-disk-utility-notify
+chimaera    1845  0.0  0.7 724312  7040 ?        Sl   18   0:02 /usr/libexec/evolution-data-server/evolution-alarm-notify
+chimaera    1849  0.0  0.3 171328  3180 ?        Sl   18   0:00 /usr/libexec/ibus-engine-simple
+chimaera    1898  0.0  0.3 350824  3120 ?        Sl   18   0:00 /usr/libexec/gsd-printer
+chimaera    1948  0.0  8.4 1303728 84424 ?       Sl   18   2:38 /snap/snap-store/518/usr/bin/snap-store --gapplication-service
+chimaera    1973  0.0  0.2 466168  2492 ?        Ssl  18   0:00 /usr/libexec/xdg-document-portal
+chimaera    2381  0.0  1.2 472460 12652 ?        Sl   18   0:12 update-notifier
+root        7665  0.0  0.0      0     0 ?        S<   19   0:00 [loop8]
+root       15111  0.0  0.3  37076  3336 ?        Ss   00:00   0:00 /usr/sbin/cupsd -l
+root       15113  0.0  0.3 180444  3132 ?        Ssl  00:00   0:00 /usr/sbin/cups-browsed
+chimaera   17952  0.0  3.0 823640 30548 ?        Ssl  09:05   0:04 /usr/libexec/gnome-terminal-server
+chimaera   17960  0.0  0.4  19256  4120 pts/1    Ss   09:05   0:00 bash
+root       18103  0.0  0.7 175096  7224 ?        Sl   11:17   0:00 gdm-session-worker [pam/gdm-password]
+root       18446  0.0  0.0      0     0 ?        I    16:31   0:03 [kworker/0:1-cgroup_destroy]
+root       18508  0.0  0.7 175100  7844 ?        Sl   17:35   0:00 gdm-session-worker [pam/gdm-password]
+root       18525  0.0  0.7  13984  7676 ?        Ss   17:47   0:00 sshd: chimaera [priv]
+chimaera   18605  0.0  0.5  14116  5440 ?        S    17:47   0:00 sshd: chimaera@pts/0
+chimaera   18606  0.0  0.5  19408  5032 pts/0    Ss   17:47   0:00 -bash
+root       18834  0.0  0.0      0     0 ?        I    18:02   0:00 [kworker/u2:2-events_power_efficient]
+root       18945  0.0  0.0      0     0 ?        I    18:07   0:00 [kworker/u2:1-events_unbound]
+root       18994  0.1  0.0      0     0 ?        I    18:08   0:00 [kworker/0:2-events]
+root       19010  0.0  0.0      0     0 ?        I    18:14   0:00 [kworker/u2:0-events_unbound]
+chimaera   19169  0.5  0.9  31148  9228 pts/1    S+   18:15   0:00 mc
+chimaera   19171  0.6  0.4  19256  4828 pts/2    Ss+  18:15   0:00 bash -rcfile .bashrc
+chimaera   19177  0.0  0.3  20132  3432 pts/0    R+   18:15   0:00 ps aux
+chimaera@Laerna:~$ ps auxsudo kill 15 18998       9 1 6 9 
+chimaera@Laerna:~$ sudo kill 19169 ps aux
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.6 168892  6844 ?        Ss   18   0:12 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    18   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   18   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   18   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   18   0:00 [kworker/0:0H-kblockd]
+root           8  0.0  0.0      0     0 ?        I<   18   0:00 [mm_percpu_wq]
+root           9  0.0  0.0      0     0 ?        S    18   0:05 [ksoftirqd/0]
+root          10  0.0  0.0      0     0 ?        I    18   0:28 [rcu_sched]
+root          11  0.0  0.0      0     0 ?        S    18   0:04 [migration/0]
+root          12  0.0  0.0      0     0 ?        S    18   0:00 [idle_inject/0]
+root          14  0.0  0.0      0     0 ?        S    18   0:00 [cpuhp/0]
+root          15  0.0  0.0      0     0 ?        S    18   0:00 [kdevtmpfs]
+root          16  0.0  0.0      0     0 ?        I<   18   0:00 [netns]
+root          17  0.0  0.0      0     0 ?        S    18   0:00 [rcu_tasks_kthre]
+root          18  0.0  0.0      0     0 ?        S    18   0:00 [rcu_tasks_rude_]
+root          19  0.0  0.0      0     0 ?        S    18   0:00 [rcu_tasks_trace]
+root          20  0.0  0.0      0     0 ?        S    18   0:00 [kauditd]
+root          21  0.0  0.0      0     0 ?        S    18   0:00 [khungtaskd]
+root          22  0.0  0.0      0     0 ?        S    18   0:00 [oom_reaper]
+root          23  0.0  0.0      0     0 ?        I<   18   0:00 [writeback]
+root          24  0.0  0.0      0     0 ?        S    18   0:00 [kcompactd0]
+root          25  0.0  0.0      0     0 ?        SN   18   0:00 [ksmd]
+root          26  0.0  0.0      0     0 ?        SN   18   0:01 [khugepaged]
+root          72  0.0  0.0      0     0 ?        I<   18   0:00 [kintegrityd]
+root          73  0.0  0.0      0     0 ?        I<   18   0:00 [kblockd]
+root          74  0.0  0.0      0     0 ?        I<   18   0:00 [blkcg_punt_bio]
+root          75  0.0  0.0      0     0 ?        I<   18   0:00 [tpm_dev_wq]
+root          76  0.0  0.0      0     0 ?        I<   18   0:00 [ata_sff]
+root          77  0.0  0.0      0     0 ?        I<   18   0:00 [md]
+root          78  0.0  0.0      0     0 ?        I<   18   0:00 [edac-poller]
+root          79  0.0  0.0      0     0 ?        I<   18   0:00 [devfreq_wq]
+root          80  0.0  0.0      0     0 ?        S    18   0:00 [watchdogd]
+root          82  0.0  0.0      0     0 ?        I<   18   0:00 [pm_wq]
+root          84  0.0  0.0      0     0 ?        S    18   0:19 [kswapd0]
+root          85  0.0  0.0      0     0 ?        S    18   0:00 [ecryptfs-kthrea]
+root          87  0.0  0.0      0     0 ?        I<   18   0:00 [kthrotld]
+root          88  0.0  0.0      0     0 ?        I<   18   0:00 [acpi_thermal_pm]
+root          89  0.0  0.0      0     0 ?        S    18   0:00 [scsi_eh_0]
+root          90  0.0  0.0      0     0 ?        I<   18   0:00 [scsi_tmf_0]
+root          91  0.0  0.0      0     0 ?        S    18   0:00 [scsi_eh_1]
+root          92  0.0  0.0      0     0 ?        I<   18   0:00 [scsi_tmf_1]
+root          94  0.0  0.0      0     0 ?        I<   18   0:00 [vfio-irqfd-clea]
+root          96  0.0  0.0      0     0 ?        I<   18   0:00 [ipv6_addrconf]
+root         105  0.0  0.0      0     0 ?        I<   18   0:00 [kstrp]
+root         108  0.0  0.0      0     0 ?        I<   18   0:00 [zswap-shrink]
+root         109  0.0  0.0      0     0 ?        I<   18   0:00 [kworker/u3:0]
+root         114  0.0  0.0      0     0 ?        I<   18   0:00 [charger_manager]
+root         115  0.0  0.0      0     0 ?        I<   18   0:09 [kworker/0:1H-kblockd]
+root         152  0.0  0.0      0     0 ?        S    18   0:00 [scsi_eh_2]
+root         153  0.0  0.0      0     0 ?        I<   18   0:00 [scsi_tmf_2]
+root         182  0.0  0.0      0     0 ?        S    18   0:01 [jbd2/sda1-8]
+root         183  0.0  0.0      0     0 ?        I<   18   0:00 [ext4-rsv-conver]
+root         222  0.0  1.2  68480 12152 ?        S<s  18   0:03 /lib/systemd/systemd-journald
+root         249  0.0  0.1  23696  1500 ?        Ss   18   0:01 /lib/systemd/systemd-udevd
+root         257  0.0  0.0      0     0 ?        S<   18   0:00 [loop0]
+root         260  0.0  0.0      0     0 ?        S<   18   0:00 [loop2]
+root         262  0.0  0.0      0     0 ?        S<   18   0:00 [loop3]
+root         264  0.0  0.0      0     0 ?        S<   18   0:00 [loop4]
+root         265  0.0  0.0      0     0 ?        S<   18   0:00 [loop5]
+root         266  0.0  0.0      0     0 ?        S<   18   0:00 [loop6]
+root         267  0.0  0.0      0     0 ?        S<   18   0:00 [loop7]
+systemd+     293  0.0  0.3  24224  3524 ?        Ss   18   0:08 /lib/systemd/systemd-resolved
+root         357  0.0  0.0      0     0 ?        S    18   0:00 [irq/18-vmwgfx]
+root         358  0.0  0.0      0     0 ?        I<   18   0:00 [ttm_swap]
+root         365  0.0  0.0      0     0 ?        I<   18   0:00 [cryptd]
+systemd+     466  0.0  0.1  90456  1992 ?        Ssl  18   0:01 /lib/systemd/systemd-timesyncd
+root         505  0.0  0.3 246884  3920 ?        Ssl  18   0:08 /usr/lib/accountsservice/accounts-daemon
+root         506  0.0  0.0   2548   248 ?        Ss   18   0:00 /usr/sbin/acpid
+avahi        509  0.0  0.1   8532  1856 ?        Ss   18   0:04 avahi-daemon: running [Laerna.local]
+root         511  0.0  0.1  18052  1828 ?        Ss   18   0:00 /usr/sbin/cron -f
+message+     513  0.0  0.4   9940  4336 ?        Ss   18   1:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         514  0.0  0.6 344316  6812 ?        Ssl  18   4:31 /usr/sbin/NetworkManager --no-daemon
+root         535  0.0  0.3  47956  3032 ?        Ss   18   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         537  0.0  0.6 249704  6316 ?        Ssl  18   0:06 /usr/lib/policykit-1/polkitd --no-debug
+syslog       542  0.0  0.2 224356  2080 ?        Ssl  18   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         543  0.0  1.4 669820 14900 ?        Ssl  18   1:07 /usr/lib/snapd/snapd
+root         544  0.0  0.2 244240  2128 ?        Ssl  18   0:00 /usr/libexec/switcheroo-control
+root         545  0.0  0.3  17140  3288 ?        Ss   18   0:01 /lib/systemd/systemd-logind
+root         548  0.0  0.3 392808  3412 ?        Ssl  18   0:00 /usr/lib/udisks2/udisksd
+root         550  0.0  0.0  13688   476 ?        Ss   18   0:02 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        557  0.0  0.0   8352    40 ?        S    18   0:00 avahi-daemon: chroot helper
+root         612  0.0  0.2 126480  2988 ?        Ssl  18   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         617  0.0  0.3 313748  3892 ?        Ssl  18   0:00 /usr/sbin/ModemManager --filter-policy=strict
+root         623  0.0  0.2  12184  2592 ?        Ss   18   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+whoopsie     652  0.0  0.3 400588  3828 ?        Ssl  18   0:01 /usr/bin/whoopsie -f
+kernoops     656  0.0  0.1  11264  1480 ?        Ss   18   0:19 /usr/sbin/kerneloops --test
+kernoops     660  0.0  0.0  11264    72 ?        Ss   18   0:19 /usr/sbin/kerneloops
+root         833  0.0  0.4 248240  4468 ?        Ssl  18   0:00 /usr/sbin/gdm3
+root         838  0.0  0.1 304056  1172 ?        Sl   18   1:08 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+rtkit        879  0.0  0.1 152940  1540 ?        SNsl 18   0:05 /usr/libexec/rtkit-daemon
+root         973  0.0  0.1 260748  1856 ?        Ssl  18   0:00 /usr/lib/upower/upowerd
+root        1191  0.0  0.3  13984  3200 ?        Ss   18   0:00 sshd: chimaera [priv]
+colord      1198  0.0  0.4 254872  4376 ?        Ssl  18   0:00 /usr/libexec/colord
+chimaera    1214  0.0  0.5  19300  5280 ?        Ss   18   0:02 /lib/systemd/systemd --user
+chimaera    1215  0.0  0.0 103576    56 ?        S    18   0:00 (sd-pam)
+chimaera    1220  0.0  0.9 1490972 9576 ?        Ssl  18   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+chimaera    1222  0.0  0.7 519920  7952 ?        SNsl 18   0:01 /usr/libexec/tracker-miner-fs
+chimaera    1226  0.0  0.5   9624  5124 ?        Ss   18   0:02 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+chimaera    1253  0.0  0.3 248344  3068 ?        Ssl  18   0:00 /usr/libexec/gvfsd
+chimaera    1262  0.0  0.2 378344  2748 ?        Sl   18   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+chimaera    1264  0.0  0.4 322564  4388 ?        Ssl  18   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+chimaera    1275  0.0  0.3 246612  3056 ?        Ssl  18   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+chimaera    1282  0.0  0.3 244336  3216 ?        Ssl  18   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+chimaera    1292  0.0  0.3 244508  3380 ?        Ssl  18   0:00 /usr/libexec/gvfs-goa-volume-monitor
+chimaera    1297  0.0  0.4 631664  4184 ?        Sl   18   0:00 /usr/libexec/goa-daemon
+chimaera    1315  0.0  0.3 397120  3076 ?        Sl   18   0:00 /usr/libexec/goa-identity-service
+chimaera    1333  0.0  0.2 325356  2792 ?        Ssl  18   0:18 /usr/libexec/gvfs-afc-volume-monitor
+chimaera    1365  0.0  0.1  14116  1148 ?        S    18   0:03 sshd: chimaera@notty
+chimaera    1366  0.0  0.1   5892  1372 ?        Ss   18   0:00 /usr/lib/openssh/sftp-server
+chimaera    1376  0.0  0.3 170908  3128 ?        Ssl  18   0:00 /usr/libexec/gvfsd-metadata
+root        1452  0.0  0.6 323308  6184 ?        Sl   18   0:00 gdm-session-worker [pam/gdm-password]
+chimaera    1464  0.0  0.4 248820  4532 ?        Sl   18   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+chimaera    1468  0.0  0.3 172652  3580 tty2     Ssl+ 18   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+chimaera    1470  0.0  5.9 578752 59844 tty2     Sl+  18   0:34 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+chimaera    1482  0.0  0.3 197052  3236 tty2     Sl+  18   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+chimaera    1553  0.0  0.0  31244     4 ?        S    18   0:00 /usr/bin/VBoxClient --clipboard
+chimaera    1554  0.0  0.1 163512  1984 ?        Sl   18   0:02 /usr/bin/VBoxClient --clipboard
+chimaera    1565  0.0  0.0  31244     4 ?        S    18   0:00 /usr/bin/VBoxClient --seamless
+chimaera    1566  0.0  0.0 163480   412 ?        Sl   18   0:00 /usr/bin/VBoxClient --seamless
+chimaera    1572  0.0  0.0  31244     8 ?        S    18   0:00 /usr/bin/VBoxClient --draganddrop
+chimaera    1573  0.2  0.0 163996   704 ?        Sl   18  12:04 /usr/bin/VBoxClient --draganddrop
+chimaera    1580  0.0  0.0  31244     4 ?        S    18   0:00 /usr/bin/VBoxClient --vmsvga
+chimaera    1581  0.0  0.0 165760   848 ?        Sl   18   0:00 /usr/bin/VBoxClient --vmsvga
+chimaera    1589  0.0  0.0   6040    36 ?        Ss   18   0:02 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+chimaera    1613  0.0  0.2 305536  2956 ?        Ssl  18   0:00 /usr/libexec/at-spi-bus-launcher
+chimaera    1618  0.0  0.2   7248  2688 ?        S    18   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+chimaera    1633  0.0  0.1  98696  1376 ?        Ssl  18   0:00 /usr/libexec/gnome-session-ctl --monitor
+chimaera    1640  0.0  0.4 492952  4660 ?        Ssl  18   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+chimaera    1653  0.1 28.4 3813844 285748 ?      Ssl  18   7:40 /usr/bin/gnome-shell
+chimaera    1675  0.0  0.3 319576  3716 ?        Sl   18   0:00 ibus-daemon --panel disable --xim
+chimaera    1679  0.0  0.3 171336  3024 ?        Sl   18   0:00 /usr/libexec/ibus-memconf
+chimaera    1680  0.0  0.9 283744  9860 ?        Sl   18   0:05 /usr/libexec/ibus-extension-gtk3
+chimaera    1683  0.0  0.8 206556  8112 ?        Sl   18   0:01 /usr/libexec/ibus-x11 --kill-daemon
+chimaera    1685  0.0  0.2 245136  2540 ?        Sl   18   0:00 /usr/libexec/ibus-portal
+chimaera    1695  0.0  0.3 162912  3828 ?        Sl   18   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+chimaera    1700  0.0  0.1 244228  1444 ?        Ssl  18   0:00 /usr/libexec/xdg-permission-store
+chimaera    1705  0.0  0.6 581060  6292 ?        Sl   18   0:00 /usr/libexec/gnome-shell-calendar-server
+chimaera    1711  0.0  0.4 685660  4064 ?        Ssl  18   0:00 /usr/libexec/evolution-source-registry
+chimaera    1721  0.0  0.5 716232  5072 ?        Ssl  18   0:00 /usr/libexec/evolution-calendar-factory
+chimaera    1729  0.0  0.2 156204  2700 ?        Sl   18   0:00 /usr/libexec/dconf-service
+chimaera    1736  0.0  0.3 681812  3500 ?        Ssl  18   0:00 /usr/libexec/evolution-addressbook-factory
+chimaera    1755  0.0  0.3 2607172 3824 ?        Sl   18   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+chimaera    1761  0.0  0.4 322460  4448 ?        Sl   18   0:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+chimaera    1773  0.0  0.2 318280  2920 ?        Ssl  18   0:00 /usr/libexec/gsd-a11y-settings
+chimaera    1774  0.0  1.0 576788 10924 ?        Ssl  18   0:03 /usr/libexec/gsd-color
+chimaera    1776  0.0  0.3 382236  3732 ?        Ssl  18   0:00 /usr/libexec/gsd-datetime
+chimaera    1777  0.0  0.3 320344  3600 ?        Ssl  18   0:13 /usr/libexec/gsd-housekeeping
+chimaera    1781  0.0  0.8 354536  8116 ?        Ssl  18   0:01 /usr/libexec/gsd-keyboard
+chimaera    1782  0.0  0.8 696976  8632 ?        Ssl  18   0:01 /usr/libexec/gsd-media-keys
+chimaera    1785  0.0  1.0 355208 10372 ?        Ssl  18   0:01 /usr/libexec/gsd-power
+chimaera    1789  0.0  0.3 256852  3404 ?        Ssl  18   0:00 /usr/libexec/gsd-print-notifications
+chimaera    1793  0.0  0.2 465732  2588 ?        Ssl  18   0:00 /usr/libexec/gsd-rfkill
+chimaera    1794  0.0  0.3 244268  3208 ?        Ssl  18   0:00 /usr/libexec/gsd-screensaver-proxy
+chimaera    1796  0.0  0.3 473396  3484 ?        Ssl  18   0:00 /usr/libexec/gsd-sharing
+chimaera    1797  0.0  0.1 323784  1688 ?        Ssl  18   0:00 /usr/libexec/gsd-smartcard
+chimaera    1799  0.0  0.3 327972  3064 ?        Ssl  18   0:00 /usr/libexec/gsd-sound
+chimaera    1802  0.0  0.3 393588  3388 ?        Ssl  18   0:00 /usr/libexec/gsd-usb-protection
+chimaera    1805  0.0  0.7 354032  7884 ?        Ssl  18   0:01 /usr/libexec/gsd-wacom
+chimaera    1809  0.0  0.2 322604  2716 ?        Ssl  18   0:00 /usr/libexec/gsd-wwan
+chimaera    1813  0.0  1.0 355208 10312 ?        Ssl  18   0:01 /usr/libexec/gsd-xsettings
+chimaera    1818  0.0  0.3 231800  3572 ?        Sl   18   0:00 /usr/libexec/gsd-disk-utility-notify
+chimaera    1845  0.0  0.7 724312  7040 ?        Sl   18   0:02 /usr/libexec/evolution-data-server/evolution-alarm-notify
+chimaera    1849  0.0  0.3 171328  3180 ?        Sl   18   0:00 /usr/libexec/ibus-engine-simple
+chimaera    1898  0.0  0.3 350824  3120 ?        Sl   18   0:00 /usr/libexec/gsd-printer
+chimaera    1948  0.0  8.4 1303728 84424 ?       Sl   18   2:38 /snap/snap-store/518/usr/bin/snap-store --gapplication-service
+chimaera    1973  0.0  0.2 466168  2492 ?        Ssl  18   0:00 /usr/libexec/xdg-document-portal
+chimaera    2381  0.0  1.2 472460 12652 ?        Sl   18   0:12 update-notifier
+root        7665  0.0  0.0      0     0 ?        S<   19   0:00 [loop8]
+root       15111  0.0  0.3  37076  3336 ?        Ss   00:00   0:00 /usr/sbin/cupsd -l
+root       15113  0.0  0.3 180444  3132 ?        Ssl  00:00   0:00 /usr/sbin/cups-browsed
+chimaera   17952  0.0  3.0 823640 30548 ?        Ssl  09:05   0:04 /usr/libexec/gnome-terminal-server
+chimaera   17960  0.0  0.4  19256  4256 pts/1    Ss   09:05   0:00 bash
+root       18103  0.0  0.7 175096  7224 ?        Sl   11:17   0:00 gdm-session-worker [pam/gdm-password]
+root       18446  0.0  0.0      0     0 ?        I    16:31   0:03 [kworker/0:1-cgroup_destroy]
+root       18508  0.0  0.7 175100  7844 ?        Sl   17:35   0:00 gdm-session-worker [pam/gdm-password]
+root       18525  0.0  0.7  13984  7676 ?        Ss   17:47   0:00 sshd: chimaera [priv]
+chimaera   18605  0.0  0.5  14116  5440 ?        D    17:47   0:00 sshd: chimaera@pts/0
+chimaera   18606  0.0  0.5  19408  5032 pts/0    Ss   17:47   0:00 -bash
+root       18834  0.0  0.0      0     0 ?        I    18:02   0:00 [kworker/u2:2-events_power_efficient]
+root       18945  0.0  0.0      0     0 ?        I    18:07   0:00 [kworker/u2:1-events_unbound]
+root       18994  0.0  0.0      0     0 ?        I    18:08   0:00 [kworker/0:2-events]
+root       19010  0.0  0.0      0     0 ?        R    18:14   0:00 [kworker/u2:0+events_unbound]
+chimaera   19180  0.8  0.9  31148  9132 pts/1    S+   18:16   0:00 mc
+chimaera   19182  1.0  0.4  19256  4788 pts/2    Ss+  18:16   0:00 bash -rcfile .bashrc
+chimaera   19188  0.0  0.3  20132  3380 pts/0    R+   18:16   0:00 ps aux
+chimaera@Laerna:~$ ps auxsudo kill 19169 15 19180
+chimaera@Laerna:~$ sudo kill 15 19180ps aux
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.6 168892  6844 ?        Ss   18   0:12 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    18   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   18   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   18   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   18   0:00 [kworker/0:0H-kblockd]
+root           8  0.0  0.0      0     0 ?        I<   18   0:00 [mm_percpu_wq]
+root           9  0.0  0.0      0     0 ?        S    18   0:05 [ksoftirqd/0]
+root          10  0.0  0.0      0     0 ?        I    18   0:29 [rcu_sched]
+root          11  0.0  0.0      0     0 ?        S    18   0:04 [migration/0]
+root          12  0.0  0.0      0     0 ?        S    18   0:00 [idle_inject/0]
+root          14  0.0  0.0      0     0 ?        S    18   0:00 [cpuhp/0]
+root          15  0.0  0.0      0     0 ?        S    18   0:00 [kdevtmpfs]
+root          16  0.0  0.0      0     0 ?        I<   18   0:00 [netns]
+root          17  0.0  0.0      0     0 ?        S    18   0:00 [rcu_tasks_kthre]
+root          18  0.0  0.0      0     0 ?        S    18   0:00 [rcu_tasks_rude_]
+root          19  0.0  0.0      0     0 ?        S    18   0:00 [rcu_tasks_trace]
+root          20  0.0  0.0      0     0 ?        S    18   0:00 [kauditd]
+root          21  0.0  0.0      0     0 ?        S    18   0:00 [khungtaskd]
+root          22  0.0  0.0      0     0 ?        S    18   0:00 [oom_reaper]
+root          23  0.0  0.0      0     0 ?        I<   18   0:00 [writeback]
+root          24  0.0  0.0      0     0 ?        S    18   0:00 [kcompactd0]
+root          25  0.0  0.0      0     0 ?        SN   18   0:00 [ksmd]
+root          26  0.0  0.0      0     0 ?        SN   18   0:01 [khugepaged]
+root          72  0.0  0.0      0     0 ?        I<   18   0:00 [kintegrityd]
+root          73  0.0  0.0      0     0 ?        I<   18   0:00 [kblockd]
+root          74  0.0  0.0      0     0 ?        I<   18   0:00 [blkcg_punt_bio]
+root          75  0.0  0.0      0     0 ?        I<   18   0:00 [tpm_dev_wq]
+root          76  0.0  0.0      0     0 ?        I<   18   0:00 [ata_sff]
+root          77  0.0  0.0      0     0 ?        I<   18   0:00 [md]
+root          78  0.0  0.0      0     0 ?        I<   18   0:00 [edac-poller]
+root          79  0.0  0.0      0     0 ?        I<   18   0:00 [devfreq_wq]
+root          80  0.0  0.0      0     0 ?        S    18   0:00 [watchdogd]
+root          82  0.0  0.0      0     0 ?        I<   18   0:00 [pm_wq]
+root          84  0.0  0.0      0     0 ?        S    18   0:19 [kswapd0]
+root          85  0.0  0.0      0     0 ?        S    18   0:00 [ecryptfs-kthrea]
+root          87  0.0  0.0      0     0 ?        I<   18   0:00 [kthrotld]
+root          88  0.0  0.0      0     0 ?        I<   18   0:00 [acpi_thermal_pm]
+root          89  0.0  0.0      0     0 ?        S    18   0:00 [scsi_eh_0]
+root          90  0.0  0.0      0     0 ?        I<   18   0:00 [scsi_tmf_0]
+root          91  0.0  0.0      0     0 ?        S    18   0:00 [scsi_eh_1]
+root          92  0.0  0.0      0     0 ?        I<   18   0:00 [scsi_tmf_1]
+root          94  0.0  0.0      0     0 ?        I<   18   0:00 [vfio-irqfd-clea]
+root          96  0.0  0.0      0     0 ?        I<   18   0:00 [ipv6_addrconf]
+root         105  0.0  0.0      0     0 ?        I<   18   0:00 [kstrp]
+root         108  0.0  0.0      0     0 ?        I<   18   0:00 [zswap-shrink]
+root         109  0.0  0.0      0     0 ?        I<   18   0:00 [kworker/u3:0]
+root         114  0.0  0.0      0     0 ?        I<   18   0:00 [charger_manager]
+root         115  0.0  0.0      0     0 ?        I<   18   0:09 [kworker/0:1H-kblockd]
+root         152  0.0  0.0      0     0 ?        S    18   0:00 [scsi_eh_2]
+root         153  0.0  0.0      0     0 ?        I<   18   0:00 [scsi_tmf_2]
+root         182  0.0  0.0      0     0 ?        S    18   0:01 [jbd2/sda1-8]
+root         183  0.0  0.0      0     0 ?        I<   18   0:00 [ext4-rsv-conver]
+root         222  0.0  1.2  68480 12340 ?        S<s  18   0:03 /lib/systemd/systemd-journald
+root         249  0.0  0.1  23696  1500 ?        Ss   18   0:01 /lib/systemd/systemd-udevd
+root         257  0.0  0.0      0     0 ?        S<   18   0:00 [loop0]
+root         260  0.0  0.0      0     0 ?        S<   18   0:00 [loop2]
+root         262  0.0  0.0      0     0 ?        S<   18   0:00 [loop3]
+root         264  0.0  0.0      0     0 ?        S<   18   0:00 [loop4]
+root         265  0.0  0.0      0     0 ?        S<   18   0:00 [loop5]
+root         266  0.0  0.0      0     0 ?        S<   18   0:00 [loop6]
+root         267  0.0  0.0      0     0 ?        S<   18   0:00 [loop7]
+systemd+     293  0.0  0.3  24224  3524 ?        Ss   18   0:08 /lib/systemd/systemd-resolved
+root         357  0.0  0.0      0     0 ?        S    18   0:00 [irq/18-vmwgfx]
+root         358  0.0  0.0      0     0 ?        I<   18   0:00 [ttm_swap]
+root         365  0.0  0.0      0     0 ?        I<   18   0:00 [cryptd]
+systemd+     466  0.0  0.1  90456  1992 ?        Ssl  18   0:01 /lib/systemd/systemd-timesyncd
+root         505  0.0  0.3 246884  3920 ?        Ssl  18   0:08 /usr/lib/accountsservice/accounts-daemon
+root         506  0.0  0.0   2548   248 ?        Ss   18   0:00 /usr/sbin/acpid
+avahi        509  0.0  0.1   8532  1856 ?        Ss   18   0:04 avahi-daemon: running [Laerna.local]
+root         511  0.0  0.1  18052  1828 ?        Ss   18   0:00 /usr/sbin/cron -f
+message+     513  0.0  0.4   9940  4336 ?        Ss   18   1:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         514  0.0  0.6 344316  6812 ?        Ssl  18   4:31 /usr/sbin/NetworkManager --no-daemon
+root         535  0.0  0.3  47956  3032 ?        Ss   18   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         537  0.0  0.6 249704  6316 ?        Ssl  18   0:06 /usr/lib/policykit-1/polkitd --no-debug
+syslog       542  0.0  0.2 224356  2080 ?        Ssl  18   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         543  0.0  1.4 669820 14896 ?        Ssl  18   1:07 /usr/lib/snapd/snapd
+root         544  0.0  0.2 244240  2128 ?        Ssl  18   0:00 /usr/libexec/switcheroo-control
+root         545  0.0  0.3  17140  3288 ?        Ss   18   0:01 /lib/systemd/systemd-logind
+root         548  0.0  0.3 392808  3412 ?        Ssl  18   0:00 /usr/lib/udisks2/udisksd
+root         550  0.0  0.0  13688   476 ?        Ss   18   0:02 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        557  0.0  0.0   8352    40 ?        S    18   0:00 avahi-daemon: chroot helper
+root         612  0.0  0.2 126480  2988 ?        Ssl  18   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         617  0.0  0.3 313748  3892 ?        Ssl  18   0:00 /usr/sbin/ModemManager --filter-policy=strict
+root         623  0.0  0.2  12184  2592 ?        Ss   18   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+whoopsie     652  0.0  0.3 400588  3828 ?        Ssl  18   0:01 /usr/bin/whoopsie -f
+kernoops     656  0.0  0.1  11264  1480 ?        Ss   18   0:19 /usr/sbin/kerneloops --test
+kernoops     660  0.0  0.0  11264    72 ?        Ss   18   0:19 /usr/sbin/kerneloops
+root         833  0.0  0.4 248240  4468 ?        Ssl  18   0:00 /usr/sbin/gdm3
+root         838  0.0  0.1 304056  1172 ?        Sl   18   1:08 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+rtkit        879  0.0  0.1 152940  1540 ?        SNsl 18   0:05 /usr/libexec/rtkit-daemon
+root         973  0.0  0.1 260748  1856 ?        Ssl  18   0:00 /usr/lib/upower/upowerd
+root        1191  0.0  0.3  13984  3200 ?        Ss   18   0:00 sshd: chimaera [priv]
+colord      1198  0.0  0.4 254872  4376 ?        Ssl  18   0:00 /usr/libexec/colord
+chimaera    1214  0.0  0.5  19300  5280 ?        Ss   18   0:02 /lib/systemd/systemd --user
+chimaera    1215  0.0  0.0 103576    56 ?        S    18   0:00 (sd-pam)
+chimaera    1220  0.0  0.9 1490972 9568 ?        Ssl  18   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+chimaera    1222  0.0  0.7 519920  7952 ?        SNsl 18   0:01 /usr/libexec/tracker-miner-fs
+chimaera    1226  0.0  0.5   9624  5124 ?        Ss   18   0:02 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+chimaera    1253  0.0  0.3 248344  3068 ?        Ssl  18   0:00 /usr/libexec/gvfsd
+chimaera    1262  0.0  0.2 378344  2748 ?        Sl   18   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+chimaera    1264  0.0  0.4 322564  4388 ?        Ssl  18   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+chimaera    1275  0.0  0.3 246612  3056 ?        Ssl  18   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+chimaera    1282  0.0  0.3 244336  3216 ?        Ssl  18   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+chimaera    1292  0.0  0.3 244508  3380 ?        Ssl  18   0:00 /usr/libexec/gvfs-goa-volume-monitor
+chimaera    1297  0.0  0.4 631664  4184 ?        Sl   18   0:00 /usr/libexec/goa-daemon
+chimaera    1315  0.0  0.3 397120  3076 ?        Sl   18   0:00 /usr/libexec/goa-identity-service
+chimaera    1333  0.0  0.2 325356  2792 ?        Ssl  18   0:18 /usr/libexec/gvfs-afc-volume-monitor
+chimaera    1365  0.0  0.1  14116  1148 ?        S    18   0:03 sshd: chimaera@notty
+chimaera    1366  0.0  0.1   5892  1372 ?        Ss   18   0:00 /usr/lib/openssh/sftp-server
+chimaera    1376  0.0  0.3 170908  3128 ?        Ssl  18   0:00 /usr/libexec/gvfsd-metadata
+root        1452  0.0  0.6 323308  6184 ?        Sl   18   0:00 gdm-session-worker [pam/gdm-password]
+chimaera    1464  0.0  0.4 248820  4532 ?        Sl   18   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+chimaera    1468  0.0  0.3 172652  3580 tty2     Ssl+ 18   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+chimaera    1470  0.0  5.9 578752 59844 tty2     Sl+  18   0:34 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+chimaera    1482  0.0  0.3 197052  3236 tty2     Sl+  18   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+chimaera    1553  0.0  0.0  31244     4 ?        S    18   0:00 /usr/bin/VBoxClient --clipboard
+chimaera    1554  0.0  0.1 163512  1984 ?        Sl   18   0:02 /usr/bin/VBoxClient --clipboard
+chimaera    1565  0.0  0.0  31244     4 ?        S    18   0:00 /usr/bin/VBoxClient --seamless
+chimaera    1566  0.0  0.0 163480   412 ?        Sl   18   0:00 /usr/bin/VBoxClient --seamless
+chimaera    1572  0.0  0.0  31244     8 ?        S    18   0:00 /usr/bin/VBoxClient --draganddrop
+chimaera    1573  0.2  0.0 163996   704 ?        Sl   18  12:04 /usr/bin/VBoxClient --draganddrop
+chimaera    1580  0.0  0.0  31244     4 ?        S    18   0:00 /usr/bin/VBoxClient --vmsvga
+chimaera    1581  0.0  0.0 165760   848 ?        Sl   18   0:00 /usr/bin/VBoxClient --vmsvga
+chimaera    1589  0.0  0.0   6040    36 ?        Ss   18   0:02 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+chimaera    1613  0.0  0.2 305536  2956 ?        Ssl  18   0:00 /usr/libexec/at-spi-bus-launcher
+chimaera    1618  0.0  0.2   7248  2688 ?        S    18   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+chimaera    1633  0.0  0.1  98696  1376 ?        Ssl  18   0:00 /usr/libexec/gnome-session-ctl --monitor
+chimaera    1640  0.0  0.4 492952  4660 ?        Ssl  18   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+chimaera    1653  0.1 28.4 3813844 285340 ?      Ssl  18   7:42 /usr/bin/gnome-shell
+chimaera    1675  0.0  0.3 319576  3716 ?        Sl   18   0:00 ibus-daemon --panel disable --xim
+chimaera    1679  0.0  0.3 171336  3024 ?        Sl   18   0:00 /usr/libexec/ibus-memconf
+chimaera    1680  0.0  0.9 283744  9860 ?        Sl   18   0:05 /usr/libexec/ibus-extension-gtk3
+chimaera    1683  0.0  0.8 206556  8112 ?        Sl   18   0:01 /usr/libexec/ibus-x11 --kill-daemon
+chimaera    1685  0.0  0.2 245136  2540 ?        Sl   18   0:00 /usr/libexec/ibus-portal
+chimaera    1695  0.0  0.3 162912  3828 ?        Sl   18   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+chimaera    1700  0.0  0.1 244228  1444 ?        Ssl  18   0:00 /usr/libexec/xdg-permission-store
+chimaera    1705  0.0  0.6 581060  6292 ?        Sl   18   0:00 /usr/libexec/gnome-shell-calendar-server
+chimaera    1711  0.0  0.4 685660  4064 ?        Ssl  18   0:00 /usr/libexec/evolution-source-registry
+chimaera    1721  0.0  0.5 716232  5072 ?        Ssl  18   0:00 /usr/libexec/evolution-calendar-factory
+chimaera    1729  0.0  0.2 156204  2700 ?        Sl   18   0:00 /usr/libexec/dconf-service
+chimaera    1736  0.0  0.3 681812  3500 ?        Ssl  18   0:00 /usr/libexec/evolution-addressbook-factory
+chimaera    1755  0.0  0.3 2607172 3824 ?        Sl   18   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+chimaera    1761  0.0  0.4 322460  4448 ?        Sl   18   0:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+chimaera    1773  0.0  0.2 318280  2920 ?        Ssl  18   0:00 /usr/libexec/gsd-a11y-settings
+chimaera    1774  0.0  1.0 576788 10916 ?        Ssl  18   0:03 /usr/libexec/gsd-color
+chimaera    1776  0.0  0.3 382236  3732 ?        Ssl  18   0:00 /usr/libexec/gsd-datetime
+chimaera    1777  0.0  0.3 320344  3600 ?        Ssl  18   0:13 /usr/libexec/gsd-housekeeping
+chimaera    1781  0.0  0.8 354536  8116 ?        Ssl  18   0:01 /usr/libexec/gsd-keyboard
+chimaera    1782  0.0  0.8 696976  8628 ?        Ssl  18   0:01 /usr/libexec/gsd-media-keys
+chimaera    1785  0.0  1.0 355208 10372 ?        Ssl  18   0:01 /usr/libexec/gsd-power
+chimaera    1789  0.0  0.3 256852  3404 ?        Ssl  18   0:00 /usr/libexec/gsd-print-notifications
+chimaera    1793  0.0  0.2 465732  2588 ?        Ssl  18   0:00 /usr/libexec/gsd-rfkill
+chimaera    1794  0.0  0.3 244268  3208 ?        Ssl  18   0:00 /usr/libexec/gsd-screensaver-proxy
+chimaera    1796  0.0  0.3 473396  3484 ?        Ssl  18   0:00 /usr/libexec/gsd-sharing
+chimaera    1797  0.0  0.1 323784  1688 ?        Ssl  18   0:00 /usr/libexec/gsd-smartcard
+chimaera    1799  0.0  0.3 327972  3064 ?        Ssl  18   0:00 /usr/libexec/gsd-sound
+chimaera    1802  0.0  0.3 393588  3388 ?        Ssl  18   0:00 /usr/libexec/gsd-usb-protection
+chimaera    1805  0.0  0.7 354032  7884 ?        Ssl  18   0:01 /usr/libexec/gsd-wacom
+chimaera    1809  0.0  0.2 322604  2716 ?        Ssl  18   0:00 /usr/libexec/gsd-wwan
+chimaera    1813  0.0  1.0 355208 10312 ?        Ssl  18   0:01 /usr/libexec/gsd-xsettings
+chimaera    1818  0.0  0.3 231800  3572 ?        Sl   18   0:00 /usr/libexec/gsd-disk-utility-notify
+chimaera    1845  0.0  0.7 724312  7040 ?        Sl   18   0:02 /usr/libexec/evolution-data-server/evolution-alarm-notify
+chimaera    1849  0.0  0.3 171328  3180 ?        Sl   18   0:00 /usr/libexec/ibus-engine-simple
+chimaera    1898  0.0  0.3 350824  3120 ?        Sl   18   0:00 /usr/libexec/gsd-printer
+chimaera    1948  0.0  8.3 1303728 83940 ?       Sl   18   2:38 /snap/snap-store/518/usr/bin/snap-store --gapplication-service
+chimaera    1973  0.0  0.2 466168  2492 ?        Ssl  18   0:00 /usr/libexec/xdg-document-portal
+chimaera    2381  0.0  1.2 472460 12652 ?        Sl   18   0:12 update-notifier
+root        7665  0.0  0.0      0     0 ?        S<   19   0:00 [loop8]
+root       15111  0.0  0.3  37076  3336 ?        Ss   00:00   0:00 /usr/sbin/cupsd -l
+root       15113  0.0  0.3 180444  3132 ?        Ssl  00:00   0:00 /usr/sbin/cups-browsed
+chimaera   17952  0.0  3.0 823640 30540 ?        Ssl  09:05   0:05 /usr/libexec/gnome-terminal-server
+chimaera   17960  0.0  0.4  19256  4256 pts/1    Ss   09:05   0:00 bash
+root       18103  0.0  0.7 175096  7224 ?        Sl   11:17   0:00 gdm-session-worker [pam/gdm-password]
+root       18446  0.0  0.0      0     0 ?        I    16:31   0:03 [kworker/0:1-cgroup_destroy]
+root       18508  0.0  0.7 175100  7844 ?        Sl   17:35   0:00 gdm-session-worker [pam/gdm-password]
+root       18525  0.0  0.7  13984  7676 ?        Ss   17:47   0:00 sshd: chimaera [priv]
+chimaera   18605  0.0  0.5  14116  5440 ?        S    17:47   0:00 sshd: chimaera@pts/0
+chimaera   18606  0.0  0.5  19408  5032 pts/0    Ss   17:47   0:00 -bash
+root       18834  0.0  0.0      0     0 ?        I    18:02   0:00 [kworker/u2:2-events_power_efficient]
+root       18945  0.0  0.0      0     0 ?        I    18:07   0:00 [kworker/u2:1-events_unbound]
+root       18994  0.1  0.0      0     0 ?        I    18:08   0:00 [kworker/0:2-events]
+root       19010  0.0  0.0      0     0 ?        I    18:14   0:00 [kworker/u2:0-events_unbound]
+chimaera   19409  0.6  0.8  31148  8956 pts/1    S+   18:17   0:00 mc
+chimaera   19411  1.0  0.4  19256  4828 pts/2    Ss+  18:17   0:00 bash -rcfile .bashrc
+chimaera   19417  0.0  0.3  20132  3348 pts/0    R+   18:17   0:00 ps aux
+chimaera@Laerna:~$ ps auxsudo kill 15 19180 19180409
+chimaera@Laerna:~$ 
