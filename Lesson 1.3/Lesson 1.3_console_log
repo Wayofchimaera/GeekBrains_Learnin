@@ -1,0 +1,516 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2021.05.26 22:11:30 =~=~=~=~=~=~=~=~=~=~=~=
+login as: r chimaera
+chimaera@192.168.1.52's password: 
+Welcome to Ubuntu 20.04.2 LTS (GNU/Linux 5.8.0-53-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+116 updates can be installed immediately.
+0 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Your Hardware Enablement Stack (HWE) is supported until April 2025.
+Last login: Sat May 22 21:27:14 2021 from 192.168.1.50
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ [K]0;chimaera@Laerna: ~chimaera@Laerna:~$ ls
+2  [0m[01;34m2015[0m  [01;34m2016[0m  [01;34m2017[0m  [01;34m2018[0m  [01;34m2019[0m  [01;34m2020[0m  [01;34m2021[0m  [01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  Errors.txt  [01;34mi[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34msnap[0m  [01;34mTemplates[0m  TestFile1  [01;34mVideos[0m
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ ещгср [K[K[K[K[K[Ktouch f[Klesson1.[K[K_1.3
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ eco[Kho "DSWFdsfdsfeqwrwewe" > L[KL[Klesson_1.3 
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ cp lesson_1.3 lesson_1.3 [K_copy
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ ls
+2  [0m[01;34m2015[0m  [01;34m2016[0m  [01;34m2017[0m  [01;34m2018[0m  [01;34m2019[0m  [01;34m2020[0m  [01;34m2021[0m  [01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  Errors.txt  [01;34mi[0m  lesson_1.3  lesson_1.3_copy  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34msnap[0m  [01;34mTemplates[0m  TestFile1  [01;34mVideos[0m
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ ln file[K[K[K[Klesson_1.3 lesson_1.3_har[K[K[Ksym
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ rm lesson_1.3_sym 
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ rm lesson_1.3_sym ln lesson_1.3 lesson_1.3_sym[K[K[Khard
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ ln lesson_1.3 lesson_1.3_hard[K[K[K[Ksym -[K[1@-[1@s[1@ 
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ ls
+2  [0m[01;34m2015[0m  [01;34m2016[0m  [01;34m2017[0m  [01;34m2018[0m  [01;34m2019[0m  [01;34m2020[0m  [01;34m2021[0m  [01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  Errors.txt  [01;34mi[0m  lesson_1.3  lesson_1.3_copy  lesson_1.3_hard  [01;36mlesson_1.3_sym[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34msnap[0m  [01;34mTemplates[0m  TestFile1  [01;34mVideos[0m
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ ls -ila
+total 160
+ 19877 drwxr-xr-x 25 chimaera chimaera 4096 мая 26 22:20 [0m[01;34m.[0m
+261122 drwxr-xr-x  3 root     root     4096 мая 17 22:31 [01;34m..[0m
+  1452 -rw-rw-r--  1 chimaera chimaera    1 мая 21 23:55 2
+ 25885 drwxrwxr-x 14 chimaera chimaera 4096 мая 22 22:07 [01;34m2015[0m
+ 26577 drwxrwxr-x 14 chimaera chimaera 4096 мая 22 22:07 [01;34m2016[0m
+ 26591 drwxrwxr-x 14 chimaera chimaera 4096 мая 22 22:07 [01;34m2017[0m
+ 26604 drwxrwxr-x 14 chimaera chimaera 4096 мая 22 22:07 [01;34m2018[0m
+ 26617 drwxrwxr-x 14 chimaera chimaera 4096 мая 22 22:07 [01;34m2019[0m
+ 26630 drwxrwxr-x 14 chimaera chimaera 4096 мая 22 22:07 [01;34m2020[0m
+ 26643 drwxrwxr-x 14 chimaera chimaera 4096 мая 22 22:07 [01;34m2021[0m
+ 26104 -rw-------  1 chimaera chimaera 2070 мая 24 22:28 .bash_history
+ 20043 -rw-r--r--  1 chimaera chimaera  220 мая 17 22:31 .bash_logout
+ 20041 -rw-r--r--  1 chimaera chimaera 3771 мая 17 22:31 .bashrc
+  1683 drwx------ 14 chimaera chimaera 4096 мая 18 01:06 [01;34m.cache[0m
+  1687 drwx------ 13 chimaera chimaera 4096 мая 22 09:07 [01;34m.config[0m
+  1724 drwxr-xr-x  2 chimaera chimaera 4096 мая 17 22:45 [01;34mDesktop[0m
+  1728 drwxr-xr-x  2 chimaera chimaera 4096 мая 17 22:45 [01;34mDocuments[0m
+  1725 drwxr-xr-x  2 chimaera chimaera 4096 мая 17 22:45 [01;34mDownloads[0m
+ 10792 -rw-rw-r--  1 chimaera chimaera  261 мая 22 18:06 Errors.txt
+  1707 drwx------  3 chimaera chimaera 4096 мая 17 23:36 [01;34m.gnupg[0m
+ 25884 drwxrwxr-x  2 chimaera chimaera 4096 мая 22 22:03 [01;34mi[0m
+ 19520 -rw-rw-r--  2 chimaera chimaera   19 мая 26 22:14 lesson_1.3
+ 26658 -rw-rw-r--  1 chimaera chimaera   19 мая 26 22:14 lesson_1.3_copy
+ 19520 -rw-rw-r--  2 chimaera chimaera   19 мая 26 22:14 lesson_1.3_hard
+ 26659 lrwxrwxrwx  1 chimaera chimaera   10 мая 26 22:20 [01;36mlesson_1.3_sym[0m -> lesson_1.3
+  1646 drwxr-xr-x  3 chimaera chimaera 4096 мая 17 22:45 [01;34m.local[0m
+ 13401 drwx------  5 chimaera chimaera 4096 мая 17 23:05 [01;34m.mozilla[0m
+  1729 drwxr-xr-x  2 chimaera chimaera 4096 мая 17 22:45 [01;34mMusic[0m
+  1730 drwxr-xr-x  2 chimaera chimaera 4096 мая 17 22:45 [01;34mPictures[0m
+ 20042 -rw-r--r--  1 chimaera chimaera  807 мая 17 22:31 .profile
+  1727 drwxr-xr-x  2 chimaera chimaera 4096 мая 17 22:45 [01;34mPublic[0m
+ 26012 drwxr-xr-x  3 chimaera chimaera 4096 мая 17 23:36 [01;34msnap[0m
+ 13417 drwx------  2 chimaera chimaera 4096 мая 17 23:30 [01;34m.ssh[0m
+ 13400 -rw-r--r--  1 chimaera chimaera    0 мая 17 22:57 .sudo_as_admin_successful
+  1726 drwxr-xr-x  2 chimaera chimaera 4096 мая 17 22:45 [01;34mTemplates[0m
+  1395 -rw-rw-r--  1 chimaera chimaera   14 мая 22 18:05 TestFile1
+  9935 -rw-r-----  1 chimaera chimaera    5 мая 18 21:41 .vboxclient-clipboard.pid
+ 13256 -rw-r-----  1 chimaera chimaera    5 мая 18 21:41 .vboxclient-display-svga-x11.pid
+  9938 -rw-r-----  1 chimaera chimaera    5 мая 18 21:41 .vboxclient-draganddrop.pid
+  9937 -rw-r-----  1 chimaera chimaera    5 мая 18 21:41 .vboxclient-seamless.pid
+  1731 drwxr-xr-x  2 chimaera chimaera 4096 мая 17 22:45 [01;34mVideos[0m
+ 25928 -rw-------  1 chimaera chimaera   52 мая 18 21:52 .Xauthority
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ кь [K[K[Krm lesson_1.3
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ cat lesson_1.3_hard
+DSWFdsfdsfeqwrwewe
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ cat lesson_1.3_hard[K[K[K[Ksym
+cat: lesson_1.3_sym: No such file or directory
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ ls
+2  [0m[01;34m2015[0m  [01;34m2016[0m  [01;34m2017[0m  [01;34m2018[0m  [01;34m2019[0m  [01;34m2020[0m  [01;34m2021[0m  [01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  Errors.txt  [01;34mi[0m  lesson_1.3_copy  lesson_1.3_hard  [40;31;01mlesson_1.3_sym[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34msnap[0m  [01;34mTemplates[0m  TestFile1  [01;34mVideos[0m
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ lscat lesson_1.3_sym[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmc[Ka[Kv lesson_1.3_copy L[Kles_`[K1.3
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ mv lesson_1.3_copy les_1.3[Kmv lesson_1.3_copy les_1.3[1P les_1.3[1P les_1.3[1P les_1.3[1P les_1.3h les_1.3a les_1.3r les_1.3d les_1.3[C[C[C[C[C[C[C[C_hard
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ ls
+2  [0m[01;34m2015[0m  [01;34m2016[0m  [01;34m2017[0m  [01;34m2018[0m  [01;34m2019[0m  [01;34m2020[0m  [01;34m2021[0m  [01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  Errors.txt  [01;34mi[0m  les_1.3  les_1.3_hard  [40;31;01mlesson_1.3_sym[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34msnap[0m  [01;34mTemplates[0m  TestFile1  [01;34mVideos[0m
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ ln les_1.3 lw[Kes_1.3_sym[1@-[1@s[1@ 
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ ls
+2  [0m[01;34m2015[0m  [01;34m2016[0m  [01;34m2017[0m  [01;34m2018[0m  [01;34m2019[0m  [01;34m2020[0m  [01;34m2021[0m  [01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  Errors.txt  [01;34mi[0m  les_1.3  les_1.3_hard  [01;36mles_1.3_sym[0m  [40;31;01mlesson_1.3_sym[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34msnap[0m  [01;34mTemplates[0m  TestFile1  [01;34mVideos[0m
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ mv leso[Kson_1.3_sym /.[K[K/[Ki/l[Klesson_1.3_sym
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ ls /[Ki/
+[0m[40;31;01mlesson_1.3_sym[0m
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ ls i/mv lesson_1.3_sym i/lesson_1.3_sym[1P_1.3_sym[1P_1.3_sym[1P_1.3_sym[C[C[1P[1P[1P
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ ls
+2  [0m[01;34m2015[0m  [01;34m2016[0m  [01;34m2017[0m  [01;34m2018[0m  [01;34m2019[0m  [01;34m2020[0m  [01;34m2021[0m  [01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  Errors.txt  [01;34mi[0m  les_1.3  les_1.3_hard  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34msnap[0m  [01;34mTemplates[0m  TestFile1  [01;34mVideos[0m
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ lsmv les_1.3_sym i/les_1.3_sym[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls i/[K
+[0m[40;31;01mles_1.3_sym[0m  [40;31;01mlesson_1.3_sym[0m
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ кь[K[Krm les_1.3
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ rm les_1.3_hard 
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ rm les_1.3_hard [K[K[K[K[K[K[K[K[K[K[K[K[KTr[Ke[K[KTestFile1 
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ rm TestFile1 [K[K[K[K[K[K[K[K[K[K2
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ rm 2[KErrors.txt 
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ touch test 1[K[K1 test [K2
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ ls
+[0m[01;34m2015[0m  [01;34m2016[0m  [01;34m2017[0m  [01;34m2018[0m  [01;34m2019[0m  [01;34m2020[0m  [01;34m2021[0m  [01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mi[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34msnap[0m  [01;34mTemplates[0m  test1  test2  [01;34mVideos[0m
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ ls -l
+total 68
+drwxrwxr-x 14 chimaera chimaera 4096 мая 22 22:07 [0m[01;34m2015[0m
+drwxrwxr-x 14 chimaera chimaera 4096 мая 22 22:07 [01;34m2016[0m
+drwxrwxr-x 14 chimaera chimaera 4096 мая 22 22:07 [01;34m2017[0m
+drwxrwxr-x 14 chimaera chimaera 4096 мая 22 22:07 [01;34m2018[0m
+drwxrwxr-x 14 chimaera chimaera 4096 мая 22 22:07 [01;34m2019[0m
+drwxrwxr-x 14 chimaera chimaera 4096 мая 22 22:07 [01;34m2020[0m
+drwxrwxr-x 14 chimaera chimaera 4096 мая 22 22:07 [01;34m2021[0m
+drwxr-xr-x  2 chimaera chimaera 4096 мая 17 22:45 [01;34mDesktop[0m
+drwxr-xr-x  2 chimaera chimaera 4096 мая 17 22:45 [01;34mDocuments[0m
+drwxr-xr-x  2 chimaera chimaera 4096 мая 17 22:45 [01;34mDownloads[0m
+drwxrwxr-x  2 chimaera chimaera 4096 мая 26 22:33 [01;34mi[0m
+drwxr-xr-x  2 chimaera chimaera 4096 мая 17 22:45 [01;34mMusic[0m
+drwxr-xr-x  2 chimaera chimaera 4096 мая 17 22:45 [01;34mPictures[0m
+drwxr-xr-x  2 chimaera chimaera 4096 мая 17 22:45 [01;34mPublic[0m
+drwxr-xr-x  3 chimaera chimaera 4096 мая 17 23:36 [01;34msnap[0m
+drwxr-xr-x  2 chimaera chimaera 4096 мая 17 22:45 [01;34mTemplates[0m
+-rw-rw-r--  1 chimaera chimaera    0 мая 26 22:36 test1
+-rw-rw-r--  1 chimaera chimaera    0 мая 26 22:36 test2
+drwxr-xr-x  2 chimaera chimaera 4096 мая 17 22:45 [01;34mVideos[0m
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ 
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ [A[K[Kls -l test1
+-rw-rw-r-- 1 chimaera chimaera 0 мая 26 22:36 test1
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ ls -l test1[K2
+-rw-rw-r-- 1 chimaera chimaera 0 мая 26 22:36 test2
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ chmod g-rw[K[K[K[K600 test2
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ chmod 600 test2[4Pls -l[C[C[C[C[C[C
+-rw------- 1 chimaera chimaera 0 мая 26 22:36 test2
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ ыгвщ [K[K[K[K[Ksudo assuser [K[K[K[K[K[K[Kdduser SudoUser
+[sudo] password for chimaera: 
+adduser: Please enter a username matching the regular expression configured
+via the NAME_REGEX[_SYSTEM] configuration variable.  Use the `--force-badname'
+option to relax this check or reconfigure NAME_REGEX.
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ sudo adduser SudoUser[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pls -l test2[4@chmod 600[C[C[C[C[C[C[4Pls -l[C[C[C[C[C[C1[K[K[K[K[K[Kcat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+systemd-timesync:x:102:104:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
+syslog:x:104:110::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:111:TPM software stack,,,:/var/lib/tpm:/bin/false
+uuidd:x:107:114::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:108:115::/nonexistent:/usr/sbin/nologin
+avahi-autoipd:x:109:116:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:110:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+rtkit:x:111:117:RealtimeKit,,,:/proc:/usr/sbin/nologin
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+cups-pk-helper:x:113:120:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+speech-dispatcher:x:114:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+avahi:x:115:121:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
+kernoops:x:116:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+saned:x:117:123::/var/lib/saned:/usr/sbin/nologin
+nm-openvpn:x:118:124:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+hplip:x:119:7:HPLIP system user,,,:/run/hplip:/bin/false
+whoopsie:x:120:125::/nonexistent:/bin/false
+colord:x:121:126:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+geoclue:x:122:127::/var/lib/geoclue:/usr/sbin/nologin
+pulse:x:123:128:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
+gnome-initial-setup:x:124:65534::/run/gnome-initial-setup/:/bin/false
+gdm:x:125:130:Gnome Display Manager:/var/lib/gdm3:/bin/false
+chimaera:x:1000:1000:Chimaera,,,:/home/chimaera:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+vboxadd:x:998:1::/var/run/vboxadd:/bin/false
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ cat /etc/passwd | grep sudouser
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ cat /etc/passwd | grep sudouser[Ksudo adduser SudoUser[K[K[K[K[K[K[K[Ksudouser
+Adding user `sudouser' ...
+Adding new group `sudouser' (1001) ...
+Adding new user `sudouser' (1001) with group `sudouser' ...
+Creating home directory `/home/sudouser' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for sudouser
+Enter the new value, or press ENTER for the default
+	Full Name []: Sudo Usrt  rt  er
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] Y
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ sudo usermod -aG sudo sudouser 
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ sudo addgroup developers
+Adding group `developers' (GID 1002) ...
+Done.
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ adduser Dev1
+adduser: Only root may add a user or group to the system.
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ adduser Dev1[1@s[1@u[1@d[1@o[1@ 
+adduser: Please enter a username matching the regular expression configured
+via the NAME_REGEX[_SYSTEM] configuration variable.  Use the `--force-badname'
+option to relax this check or reconfigure NAME_REGEX.
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ sudo adduser Dev1[K[K[K[Kdev1
+Adding user `dev1' ...
+Adding new group `dev1' (1003) ...
+Adding new user `dev1' (1002) with group `dev1' ...
+Creating home directory `/home/dev1' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for dev1
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] t y
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ sudo adduser dev1[K2
+Adding user `dev2' ...
+Adding new group `dev2' (1004) ...
+Adding new user `dev2' (1003) with group `dev2' ...
+Creating home directory `/home/dev2' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for dev2
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] 
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ vi /etc/go[Kroup
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;63r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[63;1H"/etc/group" [readonly] 78L, 1160C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[36mroot[m:[35mx[m:[31m0[m:
+[36mdaemon[m:[35mx[m:[31m1[m:
+[36mbin[m:[35mx[m:[31m2[m:
+[36msys[m:[35mx[m:[31m3[m:
+[36madm[m:[35mx[m:[31m4[m:[36msyslog[m,[36mchimaera
+tty[m:[35mx[m:[31m5[m:[36msyslog
+disk[m:[35mx[m:[31m6[m:
+[36mlp[m:[35mx[m:[31m7[m:
+[36mmail[m:[35mx[m:[31m8[m:
+[36mnews[m:[35mx[m:[31m9[m:
+[36muucp[m:[35mx[m:[31m10[m:
+[36mman[m:[35mx[m:[31m12[m:
+[36mproxy[m:[35mx[m:[31m13[m:
+[36mkmem[m:[35mx[m:[31m15[m:
+[36mdialout[m:[35mx[m:[31m20[m:
+[36mfax[m:[35mx[m:[31m21[m:
+[36mvoice[m:[35mx[m:[31m22[m:
+[36mcdrom[m:[35mx[m:[31m24[m:[36mchimaera
+floppy[m:[35mx[m:[31m25[m:
+[36mtape[m:[35mx[m:[31m26[m:
+[36msudo[m:[35mx[m:[31m27[m:[36mchimaera[m,[36msudouser
+audio[m:[35mx[m:[31m29[m:[36mpulse
+dip[m:[35mx[m:[31m30[m:[36mchimaera
+www-data[m:[35mx[m:[31m33[m:
+[36mbackup[m:[35mx[m:[31m34[m:
+[36moperator[m:[35mx[m:[31m37[m:
+[36mlist[m:[35mx[m:[31m38[m:
+[36mirc[m:[35mx[m:[31m39[m:
+[36msrc[m:[35mx[m:[31m40[m:
+[36mgnats[m:[35mx[m:[31m41[m:
+[36mshadow[m:[35mx[m:[31m42[m:
+[36mutmp[m:[35mx[m:[31m43[m:
+[36mvideo[m:[35mx[m:[31m44[m:
+[36msasl[m:[35mx[m:[31m45[m:
+[36mplugdev[m:[35mx[m:[31m46[m:[36mchimaera
+staff[m:[35mx[m:[31m50[m:
+[36mgames[m:[35mx[m:[31m60[m:
+[36musers[m:[35mx[m:[31m100[m:
+[36mnogroup[m:[35mx[m:[31m65534[m:
+[36msystemd-journal[m:[35mx[m:[31m101[m:
+[36msystemd-network[m:[35mx[m:[31m102[m:
+[36msystemd-resolve[m:[35mx[m:[31m103[m:
+[36msystemd-timesync[m:[35mx[m:[31m104[m:
+[36mcrontab[m:[35mx[m:[31m105[m:
+[36mmessagebus[m:[35mx[m:[31m106[m:
+[36minput[m:[35mx[m:[31m107[m:
+[36mkvm[m:[35mx[m:[31m108[m:
+[36mrender[m:[35mx[m:[31m109[m:
+[36msyslog[m:[35mx[m:[31m110[m:
+[36mtss[m:[35mx[m:[31m111[m:
+[36mbluetooth[m:[35mx[m:[31m112[m:
+[36mssl-cert[m:[35mx[m:[31m113[m:
+[36muuidd[m:[35mx[m:[31m114[m:
+[36mtcpdump[m:[35mx[m:[31m115[m:
+[36mavahi-autoipd[m:[35mx[m:[31m116[m:
+[36mrtkit[m:[35mx[m:[31m117[m:
+[36mssh[m:[35mx[m:[31m118[m:
+[36mnetdev[m:[35mx[m:[31m119[m:
+[36mlpadmin[m:[35mx[m:[31m120[m:[36mchimaera
+avahi[m:[35mx[m:[31m121[m:
+[36mscanner[m:[35mx[m:[31m122[m:[36msaned
+saned[m:[35mx[m:[31m123[m:[63;220H1,1[11CTop[1;1H[?25h[?25l[63;210H~@k[1;1H[63;210H   [2;1H[63;220H2[2;1H[?25h[?25l[63;210H~@k[2;1H[63;210H   [3;1H[63;220H3[3;1H[?25h[?25l[63;210H~@k[3;1H[63;210H   [2;1H[63;220H2[2;1H[?25h[?25l[63;210H~@k[2;1H[63;210H   [1;1H[63;220H1[1;1H[?25h[?25l[63;210H~@k[1;1H[63;210H   [1;1H[?25h[?25l[63;210H~@k[1;1H[63;210H   [1;1H[?25h[?25l[63;210H~@k[1;1H[63;210H   [1;1H[?25h[?25l[63;210H~@k[1;1H[63;210H   [1;1H[?25h[?25l[63;210H~@k[1;1H[63;210H   [1;1H[?25h[?25l[63;210H~@k[1;1H[63;210H   [1;1H[?25h[?25l[63;210H~@k[1;1H[63;210H   [1;1H[?25h[?25l[63;210H~@k[1;1H[63;210H   [1;1H[?25h[?25l[63;210H~@k[1;1H[63;210H   [1;1H[?25h[?25l[63;210H~@k[1;1H[63;210H   [1;1H[?25h[?25l[63;210H~@k[1;1H[63;210H   [1;1H[?25h[?25l[63;210H~@k[1;1H[63;210H   [1;1H[?25h[?25l[63;210H~@k[1;1H[63;210H   [2;1H[63;220H2[2;1H[?25h[?25l[63;210H~@k[2;1H[63;210H   [3;1H[63;220H3[3;1H[?25h[?25l[63;210H~@k[3;1H[63;210H   [4;1H[63;220H4[4;1H[?25h[?25l[63;210H~@k[4;1H[63;210H   [5;1H[63;220H5[5;1H[?25h[?25l[63;210H~@k[5;1H[63;210H   [6;1H[63;220H6[6;1H[?25h[?25l[63;210H~@k[6;1H[63;210H   [7;1H[63;220H7[7;1H[?25h[?25l[63;210H~@k[7;1H[63;210H   [8;1H[63;220H8[8;1H[?25h[?25l[63;210H~@k[8;1H[63;210H   [9;1H[63;220H9[9;1H[?25h[?25l[63;210H~@k[9;1H[63;210H   [10;1H[63;220H10,1[10;1H[?25h[?25l[63;210H~@k[10;1H[63;210H   [11;1H[63;221H1[11;1H[?25h[?25l[63;210H~@k[11;1H[63;210H   [12;1H[63;221H2[12;1H[?25h[?25l[63;210H~@k[12;1H[63;210H   [13;1H[63;221H3[13;1H[?25h[?25l[63;210H~@k[13;1H[63;210H   [14;1H[63;221H4[14;1H[?25h[?25l[63;210H~@k[14;1H[63;210H   [15;1H[63;221H5[15;1H[?25h[?25l[63;210H~@k[15;1H[63;210H   [16;1H[63;221H6[16;1H[?25h[?25l[63;210H~@k[16;1H[63;210H   [17;1H[63;221H7[17;1H[?25h[?25l[63;210H~@k[17;1H[63;210H   [18;1H[63;221H8[18;1H[?25h[?25l[63;210H~@k[18;1H[63;210H   [19;1H[63;221H9[19;1H[?25h[?25l[63;210H~@k[19;1H[63;210H   [20;1H[63;220H20[20;1H[?25h[?25l[63;210H~@k[20;1H[63;210H   [21;1H[63;221H1[21;1H[?25h[?25l[63;210H~@k[21;1H[63;210H   [22;1H[63;221H2[22;1H[?25h[?25l[63;210H~@k[22;1H[63;210H   [23;1H[63;221H3[23;1H[?25h[?25l[63;210H~@k[23;1H[63;210H   [24;1H[63;221H4[24;1H[?25h[?25l[63;210H~@k[24;1H[63;210H   [25;1H[63;221H5[25;1H[?25h[?25l[63;210H~@k[25;1H[63;210H   [26;1H[63;221H6[26;1H[?25h[?25l[63;210H~@k[26;1H[63;210H   [27;1H[63;221H7[27;1H[?25h[?25l[63;210H~@k[27;1H[63;210H   [28;1H[63;221H8[28;1H[?25h[?25l[63;210H~@k[28;1H[63;210H   [29;1H[63;221H9[29;1H[?25h[?25l[63;210H~@k[29;1H[63;210H   [30;1H[63;220H30[30;1H[?25h[?25l[63;210H~@k[30;1H[63;210H   [31;1H[63;221H1[31;1H[?25h[?25l[63;210H~@k[31;1H[63;210H   [32;1H[63;221H2[32;1H[?25h[?25l[63;210H~@k[32;1H[63;210H   [33;1H[63;221H3[33;1H[?25h[?25l[63;210H~@k[33;1H[63;210H   [34;1H[63;221H4[34;1H[?25h[?25l[63;210H~@k[34;1H[63;210H   [35;1H[63;221H5[35;1H[?25h[?25l[63;210H~@k[35;1H[63;210H   [36;1H[63;221H6[36;1H[?25h[?25l[63;210H~@k[36;1H[63;210H   [37;1H[63;221H7[37;1H[?25h[?25l[63;210H~@k[37;1H[63;210H   [38;1H[63;221H8[38;1H[?25h[?25l[63;210H~@k[38;1H[63;210H   [39;1H[63;221H9[39;1H[?25h[?25l[63;210H~@k[39;1H[63;210H   [40;1H[63;220H40[40;1H[?25h[?25l[63;210H~@k[40;1H[63;210H   [41;1H[63;221H1[41;1H[?25h[?25l[63;210H~@k[41;1H[63;210H   [42;1H[63;221H2[42;1H[?25h[?25l[63;210H~@k[42;1H[63;210H   [43;1H[63;221H3[43;1H[?25h[?25l[63;210H~@k[43;1H[63;210H   [44;1H[63;221H4[44;1H[?25h[?25l[63;210H~@k[44;1H[63;210H   [45;1H[63;221H5[45;1H[?25h[?25l[63;210H~@k[45;1H[63;210H   [46;1H[63;221H6[46;1H[?25h[?25l[63;210H~@k[46;1H[63;210H   [47;1H[63;221H7[47;1H[?25h[?25l[63;210H~@k[47;1H[63;210H   [48;1H[63;221H8[48;1H[?25h[?25l[63;210H~@k[48;1H[63;210H   [49;1H[63;221H9[49;1H[?25h[?25l[63;210H~@k[49;1H[63;210H   [50;1H[63;220H50[50;1H[?25h[?25l[63;210H~@k[50;1H[63;210H   [51;1H[63;221H1[51;1H[?25h[?25l[63;210H~@k[51;1H[63;210H   [52;1H[63;221H2[52;1H[?25h[?25l[63;210H~@k[52;1H[63;210H   [53;1H[63;221H3[53;1H[?25h[?25l[63;210H~@k[53;1H[63;210H   [54;1H[63;221H4[54;1H[?25h[?25l[63;210H~@k[54;1H[63;210H   [55;1H[63;221H5[55;1H[?25h[?25l[63;210H~@k[55;1H[63;210H   [56;1H[63;221H6[56;1H[?25h[?25l[63;210H~@k[56;1H[63;210H   [57;1H[63;221H7[57;1H[?25h[?25l[63;210H~@k[57;1H[63;210H   [57;1H[1;62r[62;1H
+[1;63r[62;1H[36mnm-openvpn[m:[35mx[m:[31m124[m:[63;1H[K[63;220H58,1[11C6%[57;1H[?25h[?25l[63;210H~@k[57;1H[63;210H   [57;1H[1;62r[62;1H
+[1;63r[62;1H[36mwhoopsie[m:[35mx[m:[31m125[m:[63;220H[K[63;220H59,1[10C12%[57;1H[?25h[?25l[63;210H~@k[57;1H[63;210H   [57;1H[1;62r[62;1H
+[1;63r[62;1H[36mcolord[m:[35mx[m:[31m126[m:[63;220H[K[63;220H60,1[10C18%[57;1H[?25h[?25l[63;210H~@k[57;1H[63;210H   [57;1H[1;62r[62;1H
+[1;63r[62;1H[36mgeoclue[m:[35mx[m:[31m127[m:[63;220H[K[63;220H61,1[10C25%[57;1H[?25h[?25l[63;210H~@k[57;1H[63;210H   [57;1H[1;62r[62;1H
+[1;63r[62;1H[36mpulse[m:[35mx[m:[31m128[m:[63;220H[K[63;220H62,1[10C31%[57;1H[?25h[?25l[63;210H~@k[57;1H[63;210H   [57;1H[1;62r[62;1H
+[1;63r[62;1H[36mpulse-access[m:[35mx[m:[31m129[m:[63;220H[K[63;220H63,1[10C37%[57;1H[?25h[?25l[63;210H~@k[57;1H[63;210H   [57;1H[1;62r[62;1H
+[1;63r[62;1H[36mgdm[m:[35mx[m:[31m130[m:[63;220H[K[63;220H64,1[10C43%[57;1H[?25h[?25l[63;210H~@k[57;1H[63;210H   [57;1H[1;62r[62;1H
+[1;63r[62;1H[36mlxd[m:[35mx[m:[31m131[m:[36mchimaera[m[63;220H[K[63;220H65,1[10C50%[57;1H[?25h[?25l[63;210H~@k[57;1H[63;210H   [57;1H[1;62r[62;1H
+[1;63r[62;1H[36mchimaera[m:[35mx[m:[31m1000[m:[63;220H[K[63;220H66,1[10C56%[57;1H[?25h[?25l[63;210H~@k[57;1H[63;210H   [57;1H[1;62r[62;1H
+[1;63r[62;1H[36msambashare[m:[35mx[m:[31m132[m:[36mchimaera[m[63;220H[K[63;220H67,1[10C62%[57;1H[?25h[?25l[63;210H~@k[57;1H[63;210H   [57;1H[1;62r[62;1H
+[1;63r[62;1H[36msystemd-coredump[m:[35mx[m:[31m999[m:[63;220H[K[63;220H68,1[10C68%[57;1H[?25h[?25l[63;210H~@k[57;1H[63;210H   [57;1H[1;62r[62;1H
+[1;63r[62;1H[36mvboxsf[m:[35mx[m:[31m998[m:[63;220H[K[63;220H69,1[10C75%[57;1H[?25h[?25l[63;210H~@k[57;1H[63;210H   [57;1H[1;62r[62;1H
+[1;63r[62;1H[36msudouser[m:[35mx[m:[31m1001[m:[63;220H[K[63;220H70,1[10C81%[57;1H[?25h[?25l[63;210H~@k[57;1H[63;210H   [57;1H[1;62r[62;1H
+[1;63r[62;1H[36mdevelopers[m:[35mx[m:[31m1002[m:[63;220H[K[63;220H71,1[10C87%[57;1H[?25h[?25l[63;210H~@k[57;1H[63;210H   [57;1H[1;62r[62;1H
+[1;63r[62;1H[36mdev1[m:[35mx[m:[31m1003[m:[63;220H[K[63;220H72,1[10C93%[57;1H[?25h[?25l[63;210H~@k[57;1H[63;210H   [57;1H[1;62r[62;1H
+[1;63r[62;1H[36mdev2[m:[35mx[m:[31m1004[m:[63;220H[K[63;220H73,1[10CBot[57;1H[?25h[?25l[63;210H~@k[57;1H[63;210H   [58;1H[63;221H4[58;1H[?25h[?25l[63;210H~@k[58;1H[63;210H   [59;1H[63;221H5[59;1H[?25h[?25l[63;210H~@k[59;1H[63;210H   [60;1H[63;221H6[60;1H[?25h[?25l[63;210H~@k[60;1H[63;210H   [61;1H[63;221H7[61;1H[?25h[?25l[63;210H~@k[61;1H[63;210H   [62;1H[63;221H8[62;1H[?25h[?25l[63;210H~@k[62;1H[63;210H   [62;1H[?25h[?25l[63;210H~@k[62;1H[63;210H   [62;1H[?25h[?25l[63;210H~@k[62;1H[63;210H   [62;1H[?25h[?25l[63;210H~@k[62;1H[63;210H   [62;1H[?25h[?25l[63;210H~@k[62;1H[63;210H   [62;1H[?25h[?25l[63;210H~@k[62;1H[63;210H   [62;1H[?25h[?25l[63;210H~@k[62;1H[63;210H   [62;1H[?25h[?25l[63;210H~@k[62;1H[63;210H   [62;1H[?25h[?25l[63;210H~@k[62;1H[63;210H   [62;1H[?25h[?25l[63;210H~@k[62;1H[63;210H   [62;1H[?25h[?25l[63;210H~@k[62;1H[63;210H   [62;1H[?25h[?25l[63;210H~@k[62;1H[63;210H   [61;1H[63;221H7[61;1H[?25h[?25l[63;210H~@k[61;1H[63;210H   [60;1H[63;221H6[60;1H[?25h[?25l[63;210H~@k[60;1H[63;210H   [60;2H[63;223H2[60;2H[?25h[?25l[63;210H~@k[60;2H[63;210H   [60;3H[63;223H3[60;3H[?25h[?25l[63;210H~@k[60;3H[63;210H   [60;4H[63;223H4[60;4H[?25h[?25l[63;210H~@k[60;4H[63;210H   [60;5H[63;223H5[60;5H[?25h[?25l[63;210H~@k[60;5H[63;210H   [60;6H[63;223H6[60;6H[?25h[?25l[63;210H~@k[60;6H[63;210H   [60;7H[63;223H7[60;7H[?25h[?25l[63;210H~@k[60;7H[63;210H   [60;8H[63;223H8[60;8H[?25h[?25l[63;210H~@k[60;8H[63;210H   [60;9H[63;223H9[60;9H[?25h[?25l[63;210H~@k[60;9H[63;210H   [60;10H[63;223H10[60;10H[?25h[?25l[63;210H~@k[60;10H[63;210H   [60;11H[63;224H1[60;11H[?25h[?25l[63;210H~@k[60;11H[63;210H   [60;12H[63;224H2[60;12H[?25h[?25l[63;210H~@k[60;12H[63;210H   [60;13H[63;224H3[60;13H[?25h[?25l[63;210H~@k[60;13H[63;210H   [60;14H[63;224H4[60;14H[?25h[?25l[63;210H~@k[60;14H[63;210H   [60;15H[63;224H5[60;15H[?25h[?25l[63;210H~@k[60;15H[63;210H   [60;16H[63;224H6[60;16H[?25h[?25l[63;210H~@k[60;16H[63;210H   [60;17H[63;224H7[60;17H[?25h[?25l[63;210H~@k[60;17H[63;210H   [60;18H[63;224H8[60;18H[?25h[?25l[63;210H~@k[60;18H[63;210H   [60;18H[?25h[?25l[63;210H~@k[60;18H[63;210H   [60;18H[?25h[?25l[63;210H~@k[60;18H[63;210H   [60;18H
+
+
+[1m-- INSERT --[m[63;220H[K[63;220H76,18[9CBot[63;14H[31mW10: Warning: Changing a readonly file[m[63;220H[K[?2004l[?2004h[60;18H[?25h[?25l[63;220H76,19[9CBot[60;19H[?25h[?25l[36md[m[63;223H20[60;20H[?25h[?25l[36me[m[63;224H1[60;21H[?25h[?25l[36mv[m[63;224H2[60;22H[?25h[?25l[36m1[m[63;224H3[60;23H[?25h[?25l,[63;224H4[60;24H[?25h[?25l[36md[m[63;224H5[60;25H[?25h[?25l[36me[m[63;224H6[60;26H[?25h[?25l[36mv[m[63;224H7[60;27H[?25h[?25l[36m2[m[63;224H8[60;28H[?25h[63;1H[K[60;27H[?25l[63;210H^[[60;27H[63;210H  [60;28H[63;220H76,27[9CBot[60;27H[?25h[?25l[63;210H:[60;27H[63;210H[K[63;1H:[?2004h[?25hwq[?25l[1m[37m[41mE45: 'readonly' option is set (add ! to override)[?2004h[60;27H[m[63;220H76,27[9CBot[60;27H[?25h[?25l[63;210H^[[60;27H[63;210H  [60;27H[63;210H^[[60;27H[63;210H  [60;27H[?25h[?25l[63;210H:[60;27H[63;1H[K[63;1H:[?2004h[?25hwq![?25l[?2004l"/etc/group"
+[1m[37m[41m"/etc/group" E212: Can't open file for writing[?2004h[m
+[32mPress ENTER or type command to continue[?25h[?25l[60;27H[m[1;1H[2L[1;1H[36mvoice[m:[35mx[m:[31m22[m:
+[36mcdrom[m:[35mx[m:[31m24[m:[36mchimaera[m[63;1H[K[63;220H76,27[9CBot[60;27H[?25h[?25l[63;210H:[60;27H[63;210H[K[63;1H:[?2004h[?25hwq1[?25l[63;4H[K[63;4H[?25h![?25l[?2004l"/etc/group"
+[1m[37m[41m"/etc/group" E212: Can't open file for writing[?2004h[m
+[32mPress ENTER or type command to continue[?25h[?25l[60;27H[m[1;1H[2L[1;1H[36mvoice[m:[35mx[m:[31m22[m:
+[36mcdrom[m:[35mx[m:[31m24[m:[36mchimaera[m[63;1H[K[63;220H76,27[9CBot[60;27H[?25h[?25l[63;210H^[[60;27H[63;210H  [60;27H[63;210H^[[60;27H[63;210H  [60;27H[?25h[?25l[63;210H:[60;27H[63;210H[K[63;1H:[?2004h[?25hq[?25l[1m[37m[41mE37: No write since last change (add ! to override)[?2004h[60;27H[m[63;220H76,27[9CBot[60;27H[?25h[?25l[63;210H:[60;27H[63;1H[K[63;1H:[?2004h[?25hq![?25l[?2004l[23;2t[23;1t[63;1H[K[63;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;chimaera@Laerna: ~chimaera@Laerna:~$ vi /etc/group[1@s[1@u[1@d[1@o[1@ 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;63r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[63;1H"/etc/group" 78L, 1160C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[36mroot[m:[35mx[m:[31m0[m:
+[36mdaemon[m:[35mx[m:[31m1[m:
+[36mbin[m:[35mx[m:[31m2[m:
+[36msys[m:[35mx[m:[31m3[m:
+[36madm[m:[35mx[m:[31m4[m:[36msyslog[m,[36mchimaera
+tty[m:[35mx[m:[31m5[m:[36msyslog
+disk[m:[35mx[m:[31m6[m:
+[36mlp[m:[35mx[m:[31m7[m:
+[36mmail[m:[35mx[m:[31m8[m:
+[36mnews[m:[35mx[m:[31m9[m:
+[36muucp[m:[35mx[m:[31m10[m:
+[36mman[m:[35mx[m:[31m12[m:
+[36mproxy[m:[35mx[m:[31m13[m:
+[36mkmem[m:[35mx[m:[31m15[m:
+[36mdialout[m:[35mx[m:[31m20[m:
+[36mfax[m:[35mx[m:[31m21[m:
+[36mvoice[m:[35mx[m:[31m22[m:
+[36mcdrom[m:[35mx[m:[31m24[m:[36mchimaera
+floppy[m:[35mx[m:[31m25[m:
+[36mtape[m:[35mx[m:[31m26[m:
+[36msudo[m:[35mx[m:[31m27[m:[36mchimaera[m,[36msudouser
+audio[m:[35mx[m:[31m29[m:[36mpulse
+dip[m:[35mx[m:[31m30[m:[36mchimaera
+www-data[m:[35mx[m:[31m33[m:
+[36mbackup[m:[35mx[m:[31m34[m:
+[36moperator[m:[35mx[m:[31m37[m:
+[36mlist[m:[35mx[m:[31m38[m:
+[36mirc[m:[35mx[m:[31m39[m:
+[36msrc[m:[35mx[m:[31m40[m:
+[36mgnats[m:[35mx[m:[31m41[m:
+[36mshadow[m:[35mx[m:[31m42[m:
+[36mutmp[m:[35mx[m:[31m43[m:
+[36mvideo[m:[35mx[m:[31m44[m:
+[36msasl[m:[35mx[m:[31m45[m:
+[36mplugdev[m:[35mx[m:[31m46[m:[36mchimaera
+staff[m:[35mx[m:[31m50[m:
+[36mgames[m:[35mx[m:[31m60[m:
+[36musers[m:[35mx[m:[31m100[m:
+[36mnogroup[m:[35mx[m:[31m65534[m:
+[36msystemd-journal[m:[35mx[m:[31m101[m:
+[36msystemd-network[m:[35mx[m:[31m102[m:
+[36msystemd-resolve[m:[35mx[m:[31m103[m:
+[36msystemd-timesync[m:[35mx[m:[31m104[m:
+[36mcrontab[m:[35mx[m:[31m105[m:
+[36mmessagebus[m:[35mx[m:[31m106[m:
+[36minput[m:[35mx[m:[31m107[m:
+[36mkvm[m:[35mx[m:[31m108[m:
+[36mrender[m:[35mx[m:[31m109[m:
+[36msyslog[m:[35mx[m:[31m110[m:
+[36mtss[m:[35mx[m:[31m111[m:
+[36mbluetooth[m:[35mx[m:[31m112[m:
+[36mssl-cert[m:[35mx[m:[31m113[m:
+[36muuidd[m:[35mx[m:[31m114[m:
+[36mtcpdump[m:[35mx[m:[31m115[m:
+[36mavahi-autoipd[m:[35mx[m:[31m116[m:
+[36mrtkit[m:[35mx[m:[31m117[m:
+[36mssh[m:[35mx[m:[31m118[m:
+[36mnetdev[m:[35mx[m:[31m119[m:
+[36mlpadmin[m:[35mx[m:[31m120[m:[36mchimaera
+avahi[m:[35mx[m:[31m121[m:
+[36mscanner[m:[35mx[m:[31m122[m:[36msaned
+saned[m:[35mx[m:[31m123[m:[63;220H1,1[11CTop[1;1H[?25h[?25l[63;210H~@k[1;1H[63;210H   [1;1H[63;1H[1m-- INSERT --[m[63;14H[K[63;220H1,1[11CTop[1;1H[?25h[?25l[63;220H2[2;1H[?25h[?25l[63;220H3[3;1H[?25h[?25l[63;220H4[4;1H[?25h[?25l[63;220H5[5;1H[?25h[?25l[63;220H6[6;1H[?25h[?25l[63;220H7[7;1H[?25h[?25l[63;220H8[8;1H[?25h[?25l[63;220H9[9;1H[?25h[?25l[63;220H10,1[10;1H[?25h[?25l[63;221H1[11;1H[?25h[?25l[63;221H2[12;1H[?25h[?25l[63;221H3[13;1H[?25h[?25l[63;221H4[14;1H[?25h[?25l[63;221H5[15;1H[?25h[?25l[63;221H6[16;1H[?25h[?25l[63;221H7[17;1H[?25h[?25l[63;221H8[18;1H[?25h[?25l[63;221H9[19;1H[?25h[?25l[63;220H20[20;1H[?25h[?25l[63;221H1[21;1H[?25h[?25l[63;221H2[22;1H[?25h[?25l[63;221H3[23;1H[?25h[?25l[63;221H4[24;1H[?25h[?25l[63;221H5[25;1H[?25h[?25l[63;221H6[26;1H[?25h[?25l[63;221H7[27;1H[?25h[?25l[63;221H8[28;1H[?25h[?25l[63;221H9[29;1H[?25h[?25l[63;220H30[30;1H[?25h[?25l[63;221H1[31;1H[?25h[?25l[63;221H2[32;1H[?25h[?25l[63;221H3[33;1H[?25h[?25l[63;221H4[34;1H[?25h[?25l[63;221H5[35;1H[?25h[?25l[63;221H6[36;1H[?25h[?25l[63;221H7[37;1H[?25h[?25l[63;221H8[38;1H[?25h[?25l[63;221H9[39;1H[?25h[?25l[63;220H40[40;1H[?25h[?25l[63;221H1[41;1H[?25h[?25l[63;221H2[42;1H[?25h[?25l[63;221H3[43;1H[?25h[?25l[63;221H4[44;1H[?25h[?25l[63;221H5[45;1H[?25h[?25l[63;221H6[46;1H[?25h[?25l[63;221H7[47;1H[?25h[?25l[63;221H8[48;1H[?25h[?25l[63;221H9[49;1H[?25h[?25l[63;220H50[50;1H[?25h[?25l[63;221H1[51;1H[?25h[?25l[63;221H2[52;1H[?25h[?25l[63;221H3[53;1H[?25h[?25l[63;221H4[54;1H[?25h[?25l[63;221H5[55;1H[?25h[?25l[63;221H6[56;1H[?25h[?25l[63;221H7[57;1H[?25h[?25l[1;62r[62;1H
+[1;63r[62;1H[36mnm-openvpn[m:[35mx[m:[31m124[m:[63;220H[K[63;220H58,1[11C6%[57;1H[?25h[?25l[1;62r[62;1H
+[1;63r[62;1H[36mwhoopsie[m:[35mx[m:[31m125[m:[63;220H[K[63;220H59,1[10C12%[57;1H[?25h[?25l[1;62r[62;1H
+[1;63r[62;1H[36mcolord[m:[35mx[m:[31m126[m:[63;220H[K[63;220H60,1[10C18%[57;1H[?25h[?25l[1;62r[62;1H
+[1;63r[62;1H[36mgeoclue[m:[35mx[m:[31m127[m:[63;220H[K[63;220H61,1[10C25%[57;1H[?25h[?25l[1;62r[62;1H
+[1;63r[62;1H[36mpulse[m:[35mx[m:[31m128[m:[63;220H[K[63;220H62,1[10C31%[57;1H[?25h[?25l[1;62r[62;1H
+[1;63r[62;1H[36mpulse-access[m:[35mx[m:[31m129[m:[63;220H[K[63;220H63,1[10C37%[57;1H[?25h[?25l[1;62r[62;1H
+[1;63r[62;1H[36mgdm[m:[35mx[m:[31m130[m:[63;220H[K[63;220H64,1[10C43%[57;1H[?25h[?25l[1;62r[62;1H
+[1;63r[62;1H[36mlxd[m:[35mx[m:[31m131[m:[36mchimaera[m[63;220H[K[63;220H65,1[10C50%[57;1H[?25h[?25l[1;62r[62;1H
+[1;63r[62;1H[36mchimaera[m:[35mx[m:[31m1000[m:[63;220H[K[63;220H66,1[10C56%[57;1H[?25h[?25l[1;62r[62;1H
+[1;63r[62;1H[36msambashare[m:[35mx[m:[31m132[m:[36mchimaera[m[63;220H[K[63;220H67,1[10C62%[57;1H[?25h[?25l[1;62r[62;1H
+[1;63r[62;1H[36msystemd-coredump[m:[35mx[m:[31m999[m:[63;220H[K[63;220H68,1[10C68%[57;1H[?25h[?25l[1;62r[62;1H
+[1;63r[62;1H[36mvboxsf[m:[35mx[m:[31m998[m:[63;220H[K[63;220H69,1[10C75%[57;1H[?25h[?25l[1;62r[62;1H
+[1;63r[62;1H[36msudouser[m:[35mx[m:[31m1001[m:[63;220H[K[63;220H70,1[10C81%[57;1H[?25h[?25l[1;62r[62;1H
+[1;63r[62;1H[36mdevelopers[m:[35mx[m:[31m1002[m:[63;220H[K[63;220H71,1[10C87%[57;1H[?25h[?25l[1;62r[62;1H
+[1;63r[62;1H[36mdev1[m:[35mx[m:[31m1003[m:[63;220H[K[63;220H72,1[10C93%[57;1H[?25h[?25l[1;62r[62;1H
+[1;63r[62;1H[36mdev2[m:[35mx[m:[31m1004[m:[63;220H[K[63;220H73,1[10CBot[57;1H[?25h[?25l[63;221H4[58;1H[?25h[?25l[63;221H5[59;1H[?25h[?25l[63;221H6[60;1H[?25h[?25l[63;221H7[61;1H[?25h[?25l[63;221H8[62;1H[?25h[?25l[63;223H2[62;2H[?25h[?25l[63;221H7[61;2H[?25h[?25l[63;221H6[60;2H[?25h[?25l[63;223H3[60;3H[?25h[?25l[63;223H4[60;4H[?25h[?25l[63;223H5[60;5H[?25h[?25l[63;223H6[60;6H[?25h[?25l[63;223H7[60;7H[?25h[?25l[63;223H8[60;8H[?25h[?25l[63;223H9[60;9H[?25h[?25l[63;223H10[60;10H[?25h[?25l[63;224H1[60;11H[?25h[?25l[63;224H2[60;12H[?25h[?25l[63;224H3[60;13H[?25h[?25l[63;224H4[60;14H[?25h[?25l[63;224H5[60;15H[?25h[?25l[63;224H6[60;16H[?25h[?25l[63;224H7[60;17H[?25h[?25l[63;224H8[60;18H[?25h[?25l[63;224H9[60;19H[?25h[?25l[36md[m[63;223H20[60;20H[?25h[?25l[36me[m[63;224H1[60;21H[?25h[?25l[36mv[m[63;224H2[60;22H[?25h[?25l[36m1[m[63;224H3[60;23H[?25h[?25l,[63;224H4[60;24H[?25h[?25l[36m [m[63;224H5[60;25H[?25h[?25l[36md[m[63;224H6[60;26H[?25h[?25l[36me[m[63;224H7[60;27H[?25h[?25l[60;26H[K[63;224H6[60;26H[?25h[?25l[60;25H[K[63;224H5[60;25H[?25h[?25l[60;24H[K[63;224H4[60;24H[?25h[?25l[60;23H[K[63;224H3[60;23H[?25h[?25l,[63;224H4[60;24H[?25h[?25l[36md[m[63;224H5[60;25H[?25h[?25l[36me[m[63;224H6[60;26H[?25h[?25l[36mv[m[63;224H7[60;27H[?25h[?25l[36m2[m[63;224H8[60;28H[?25h[63;1H[K[60;27H[?25l[63;210H^[[60;27H[63;210H  [60;28H[63;220H76,27[9CBot[60;27H[?25h[?25l[63;210H:[60;27H[63;210H[K[63;1H:[?2004h[?25hwq![?25l[?2004l"/etc/group" 78L, 1169C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;chimaera@Laerna: ~chimaera@Laerna:~$ sudo vi /etc/group
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;63r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[63;1H"/etc/group" 78L, 1169C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[36mvoice[m:[35mx[m:[31m22[m:
+[36mcdrom[m:[35mx[m:[31m24[m:[36mchimaera
+floppy[m:[35mx[m:[31m25[m:
+[36mtape[m:[35mx[m:[31m26[m:
+[36msudo[m:[35mx[m:[31m27[m:[36mchimaera[m,[36msudouser
+audio[m:[35mx[m:[31m29[m:[36mpulse
+dip[m:[35mx[m:[31m30[m:[36mchimaera
+www-data[m:[35mx[m:[31m33[m:
+[36mbackup[m:[35mx[m:[31m34[m:
+[36moperator[m:[35mx[m:[31m37[m:
+[36mlist[m:[35mx[m:[31m38[m:
+[36mirc[m:[35mx[m:[31m39[m:
+[36msrc[m:[35mx[m:[31m40[m:
+[36mgnats[m:[35mx[m:[31m41[m:
+[36mshadow[m:[35mx[m:[31m42[m:
+[36mutmp[m:[35mx[m:[31m43[m:
+[36mvideo[m:[35mx[m:[31m44[m:
+[36msasl[m:[35mx[m:[31m45[m:
+[36mplugdev[m:[35mx[m:[31m46[m:[36mchimaera
+staff[m:[35mx[m:[31m50[m:
+[36mgames[m:[35mx[m:[31m60[m:
+[36musers[m:[35mx[m:[31m100[m:
+[36mnogroup[m:[35mx[m:[31m65534[m:
+[36msystemd-journal[m:[35mx[m:[31m101[m:
+[36msystemd-network[m:[35mx[m:[31m102[m:
+[36msystemd-resolve[m:[35mx[m:[31m103[m:
+[36msystemd-timesync[m:[35mx[m:[31m104[m:
+[36mcrontab[m:[35mx[m:[31m105[m:
+[36mmessagebus[m:[35mx[m:[31m106[m:
+[36minput[m:[35mx[m:[31m107[m:
+[36mkvm[m:[35mx[m:[31m108[m:
+[36mrender[m:[35mx[m:[31m109[m:
+[36msyslog[m:[35mx[m:[31m110[m:
+[36mtss[m:[35mx[m:[31m111[m:
+[36mbluetooth[m:[35mx[m:[31m112[m:
+[36mssl-cert[m:[35mx[m:[31m113[m:
+[36muuidd[m:[35mx[m:[31m114[m:
+[36mtcpdump[m:[35mx[m:[31m115[m:
+[36mavahi-autoipd[m:[35mx[m:[31m116[m:
+[36mrtkit[m:[35mx[m:[31m117[m:
+[36mssh[m:[35mx[m:[31m118[m:
+[36mnetdev[m:[35mx[m:[31m119[m:
+[36mlpadmin[m:[35mx[m:[31m120[m:[36mchimaera
+avahi[m:[35mx[m:[31m121[m:
+[36mscanner[m:[35mx[m:[31m122[m:[36msaned
+saned[m:[35mx[m:[31m123[m:
+[36mnm-openvpn[m:[35mx[m:[31m124[m:
+[36mwhoopsie[m:[35mx[m:[31m125[m:
+[36mcolord[m:[35mx[m:[31m126[m:
+[36mgeoclue[m:[35mx[m:[31m127[m:
+[36mpulse[m:[35mx[m:[31m128[m:
+[36mpulse-access[m:[35mx[m:[31m129[m:
+[36mgdm[m:[35mx[m:[31m130[m:
+[36mlxd[m:[35mx[m:[31m131[m:[36mchimaera
+chimaera[m:[35mx[m:[31m1000[m:
+[36msambashare[m:[35mx[m:[31m132[m:[36mchimaera
+systemd-coredump[m:[35mx[m:[31m999[m:
+[36mvboxsf[m:[35mx[m:[31m998[m:
+[36msudouser[m:[35mx[m:[31m1001[m:
+[36mdevelopers[m:[35mx[m:[31m1002[m:[36mdev1[m,[36mdev2
+dev1[m:[35mx[m:[31m1003[m:
+[36mdev2[m:[35mx[m:[31m1004[m:[63;220H76,27[9CBot[60;27H[?25h[?25l[63;210H~@k[60;27H[63;210H   [61;12H[63;221H7,12[61;12H[?25h[?25l[63;210H~@k[61;12H[63;210H   [62;12H[63;221H8[62;12H[?25h[?25l[63;210H~@k[62;12H[63;210H   [62;12H[?25h[?25l[63;210H~@k[62;12H[63;210H   [62;12H[?25h[?25l[63;210H~@k[62;12H[63;210H   [62;12H[?25h[?25l[63;210H^[[62;12H[63;210H  [62;12H[63;210H^[[62;12H[63;210H  [62;12H[?25h[?25l[63;210H:[62;12H[63;1H[K[63;1H:[?2004h[?25hwq[?25l[63;3H[K[63;3H[?25h[?25l[63;2H[K[63;2H[?25hw[?25l[63;2H[K[63;2H[?25hq[?25l[?2004l[23;2t[23;1t[63;1H[K[63;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;chimaera@Laerna: ~chimaera@Laerna:~$ зцв
+pзцв: command not found
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ pwd
+/home/chimaera
+]0;chimaera@Laerna: ~chimaera@Laerna:~$ cd .. 
+]0;chimaera@Laerna: /homechimaera@Laerna:/home$ mkdir DevelopersFolder
+mkdir: cannot create directory ‘DevelopersFolder’: Permission denied
+]0;chimaera@Laerna: /homechimaera@Laerna:/home$ cd /tmp
+]0;chimaera@Laerna: /tmpchimaera@Laerna:/tmp$ cd /tmpmkdir DevelopersFolder
+]0;chimaera@Laerna: /tmpchimaera@Laerna:/tmp$ ls -l
+total 40
+drwxrwxr-x 2 chimaera chimaera 4096 мая 28 01:18 [0m[01;34mDevelopersFolder[0m
+drwx------ 3 root     root     4096 мая 26 22:11 [01;34msystemd-private-fe377aab5d0242ea8334e9d727946ea9-colord.service-FPTJ5i[0m
+drwx------ 3 root     root     4096 мая 26 22:10 [01;34msystemd-private-fe377aab5d0242ea8334e9d727946ea9-ModemManager.service-WxpS9f[0m
+drwx------ 3 root     root     4096 мая 26 22:10 [01;34msystemd-private-fe377aab5d0242ea8334e9d727946ea9-switcheroo-control.service-8OaSLi[0m
+drwx------ 3 root     root     4096 мая 26 22:10 [01;34msystemd-private-fe377aab5d0242ea8334e9d727946ea9-systemd-logind.service-rhJ2mi[0m
+drwx------ 3 root     root     4096 мая 26 22:10 [01;34msystemd-private-fe377aab5d0242ea8334e9d727946ea9-systemd-resolved.service-HZ3xag[0m
+drwx------ 3 root     root     4096 мая 26 22:10 [01;34msystemd-private-fe377aab5d0242ea8334e9d727946ea9-systemd-timesyncd.service-uEEUrj[0m
+drwx------ 3 root     root     4096 мая 26 22:11 [01;34msystemd-private-fe377aab5d0242ea8334e9d727946ea9-upower.service-RoCpXg[0m
+drwx------ 2 chimaera chimaera 4096 мая 27 06:38 [01;34mtracker-extract-files.1000[0m
+drwx------ 2 gdm      gdm      4096 мая 27 06:38 [01;34mtracker-extract-files.125[0m
+]0;chimaera@Laerna: /tmpchimaera@Laerna:/tmp$ sudo chgrp dec[Kv
+dev1        dev2        developers  
+]0;chimaera@Laerna: /tmpchimaera@Laerna:/tmp$ sudo chgrp developers DevelopersFolder/[K/
+]0;chimaera@Laerna: /tmpchimaera@Laerna:/tmp$ sudo chgrp developers DevelopersFolder/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l[K DevelopersFolder/
+total 0
+]0;chimaera@Laerna: /tmpchimaera@Laerna:/tmp$ ls -l DevelopersFolder/[K
+total 0
+]0;chimaera@Laerna: /tmpchimaera@Laerna:/tmp$ ls -l DevelopersFolder[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+total 40
+drwxrwxr-x 2 chimaera developers 4096 мая 28 01:18 [0m[01;34mDevelopersFolder[0m
+drwx------ 3 root     root       4096 мая 26 22:11 [01;34msystemd-private-fe377aab5d0242ea8334e9d727946ea9-colord.service-FPTJ5i[0m
+drwx------ 3 root     root       4096 мая 26 22:10 [01;34msystemd-private-fe377aab5d0242ea8334e9d727946ea9-ModemManager.service-WxpS9f[0m
+drwx------ 3 root     root       4096 мая 26 22:10 [01;34msystemd-private-fe377aab5d0242ea8334e9d727946ea9-switcheroo-control.service-8OaSLi[0m
+drwx------ 3 root     root       4096 мая 26 22:10 [01;34msystemd-private-fe377aab5d0242ea8334e9d727946ea9-systemd-logind.service-rhJ2mi[0m
+drwx------ 3 root     root       4096 мая 26 22:10 [01;34msystemd-private-fe377aab5d0242ea8334e9d727946ea9-systemd-resolved.service-HZ3xag[0m
+drwx------ 3 root     root       4096 мая 26 22:10 [01;34msystemd-private-fe377aab5d0242ea8334e9d727946ea9-systemd-timesyncd.service-uEEUrj[0m
+drwx------ 3 root     root       4096 мая 26 22:11 [01;34msystemd-private-fe377aab5d0242ea8334e9d727946ea9-upower.service-RoCpXg[0m
+drwx------ 2 chimaera chimaera   4096 мая 27 06:38 [01;34mtracker-extract-files.1000[0m
+drwx------ 2 gdm      gdm        4096 мая 27 06:38 [01;34mtracker-extract-files.125[0m
+]0;chimaera@Laerna: /tmpchimaera@Laerna:/tmp$ 
